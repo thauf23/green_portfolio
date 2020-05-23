@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <btn>
+        <div class="thum_button">
+            <p><img src="asset/img/main/arrow_left.png" alt="prev"/></p>
+            <p><img src="asset/img/main/arrow_right.png" alt="next"/></p>
+        </div>
+    </btn>
+    <text>
+        <small>An Sumi project</small>
+    </text>
+    <item>
+        <div class="thum_text">
+            <p>PROJECT</p>
+            <h2>Shinil polytech</h2>
+            <small>
+                Renewal /
+                <span>반응형</span>
+            </small>
+        </div>
+    </item>
+    <item>
+        <div class="thum_text">
+            <p>PROJECT</p>
+            <h2>House</h2>
+            <small>
+                design /
+                <span>반응형</span>
+            </small>
+        </div>
+    </item>
+    <item>
+        <div class="thum_text">
+            <p>PROJECT</p>
+            <h2>An Sumi portfolio</h2>
+            <small>
+                design /
+                <span>반응형</span>
+            </small>
+        </div>
+    </item>
+    <item>
+        <div class="thum_text">
+            <p>PROJECT</p>
+            <h2>Shinil polytech</h2>
+            <small>
+                Renewal /
+                <span>반응형</span>
+            </small>
+        </div>
+    </item>
+</items>

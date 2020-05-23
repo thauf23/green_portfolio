@@ -1,0 +1,25 @@
+footer{
+    height: 9.2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7.5em;
+    overflow: hidden;
+}
+footer p{
+    font-size: 12px;
+    color: #878787;
+}
+footer > p{
+    float: right;
+}
+footer > div{
+    float: left;
+}
+footer > div span{
+    float: left;
+    margin-right: 10px;
+}
+footer > div > p{
+    float: right;
+}
