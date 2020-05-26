@@ -21,10 +21,10 @@ header h1 a{
 header h1 a.color{
     color: #ff484a;
     text-shadow:
-    -2px -2px 0 #1c1b34,
-    2px -2px 0 #1c1b34,
-    -2px 2px 0 #1c1b34,
-    2px 2px 0 #1c1b34;
+    -2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px -2px 0 #fff,
+    2px 2px 0 #fff;
 }
 header nav{
     width: 380px;
@@ -66,22 +66,28 @@ header .header_menu{
 /* header .header_menu.menu_color{
     background: #ff484a;
 } */
-header .header_menu::before{
-    content: '';
+header .header_menu span{
     width: 35px; height: 1px;
-    display: block;
-    /* background: #1c1b34; */
-    background: #fff;
     margin: auto;
+    display: block;
+    background: #fff;
+}
+header .header_menu span:nth-of-type(1){
+    /* content: '';
+    width: 35px; height: 1px;
+    display: block; */
+    /* background: #1c1b34; */
+    /* background: #fff;
+    margin: auto; */
     transform: translateY(29px);
 }
-header .header_menu::after{
-    content: '';
+header .header_menu span:nth-of-type(2){
+    /* content: '';
     width: 35px; height: 1px;
-    display: block;
+    display: block; */
     /* background: #1c1b34; */
-    background: #fff;
-    margin: auto;
+    /* background: #fff;
+    margin: auto; */
     transform: translateY(27px) rotate(90deg);
 }
 

@@ -31,9 +31,15 @@ section{
     position: absolute;
     left: 0; top: 0;
     transition: .5s;
+    transform: scaleY(.95);
+    -webkit-filter: opacity(.4) drop-shadow(0 0 0#1c1b34);
+    filter: opacity(.4) drop-shadow(0 0 0 #1c1b34);
 }
 .thum_box .box_img li.shadow{
-    box-shadow: 0 5px 50px 0 rgba(255, 192, 193, .6);    
+    box-shadow: 0 5px 60px 0 rgba(255, 192, 193, .7);
+    -webkit-filter: opacity(1) drop-shadow(0 0 0);
+    filter: opacity(1) drop-shadow(0 0 0);
+    transform: scale(1);
 }
 .thum_box .box_img li a{
     width: 100%;
@@ -129,6 +135,7 @@ section{
 }
 .thum_button p{
     width: 50%; height: 100%;
+    transition: .35s;
 }
 .thum_button p:nth-of-type(1){
     background: rgba(254, 116, 117, .5);
@@ -142,12 +149,17 @@ section{
     width: 8px;
     margin: 15px auto;
 }
-
+.thum_button p:nth-of-type(1):hover{
+    background: rgba(254, 116, 117, 1);
+}
+.thum_button p:nth-of-type(2):hover{
+    background: rgba(255, 72, 74, 1);
+}
 /* box_text */
 .box_text{
     color: #1c1b34;
     position: absolute;
-    right: -82px; bottom: 184px;
+    right: -74px; bottom: 170px;
     transform: rotate(90deg);
 }
 

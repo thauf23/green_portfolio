@@ -46,7 +46,8 @@
 .box span{
     font-size: 2.125rem;
     font-weight: bold;
-    color: #2a284d;
+    /* color: #2a284d; */
+    color: #fff;
     position: absolute;
     right: 0; top: 24vh;
     transform: rotate(90deg);

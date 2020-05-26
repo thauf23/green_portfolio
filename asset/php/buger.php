@@ -1,7 +1,7 @@
     <div class="box">
         <ul class="buger">
             <li>
-                <a href="#">
+                <a href="/asset/php/list.php">
                     <small>01</small>
                     <strong>WORK</strong>
                 </a>

@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="common.css" type=text/css rel=stylesheet>
-    <link href="buger.css" type=text/css rel=stylesheet>
-    <title>Document</title>
-</head>
-<body>
+<?php
+    include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/header.php";
+?>
+
     <div class="container">
         <div class="thum_menu">
             <a href="index.php">
@@ -15,7 +9,7 @@
                 <strong>MAIN</strong>
             </a>
         </div>
-        <ul class="thum_list">
+        <ul class="thum_img">
             <li>
                 <a href="#">
                     <figure>
@@ -64,5 +58,7 @@
             </li>
         </ul>
     </div>
-</body>
-</html>
+
+<?php 
+    include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/footer.php";
+?>

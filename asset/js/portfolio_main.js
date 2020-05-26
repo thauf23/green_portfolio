@@ -22,7 +22,10 @@ $(function(){
     $('.box_img li').eq(1).addClass('shadow');
     var tem = $('#thum_tem ').html();
     $('.shadow a').append(tem);
-    
+    // $('.box_img li').css({
+    //     "height": "80%"
+    // });
+
     $('.thum_button .next').on('click',function(){
         boxhide();
         ++s;
@@ -39,7 +42,6 @@ $(function(){
             }
             boxchange();
         });
-        
     });
 
 // ----------- prev ---------------------------------
@@ -57,7 +59,8 @@ $(function(){
                     });
                 },10);
             }
-            setTimeout(boxchange,500);
+            // setTimeout(boxchange,100);
+            boxchange();
         });
     });
 
@@ -70,8 +73,8 @@ $(function(){
     }
 
 // ----------- 텍스트, 버튼 append ---------------------------------
-    
     function boxchange(){
+        $('.list_num p').text("0"+s);
         // project name
         insertion();
         $('.box_img li').eq(s).addClass('shadow');
