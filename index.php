@@ -5,24 +5,27 @@
 
 <script src="asset/js/portfolio_main.js"></script>
 
+        <template id="thum_tem">
+            <div class="thum_text">
+                <p>PROJECT</p>
+                <h2>Shinil polytech</h2>
+                <small>
+                    <span class="introduce">Renewal /</span>
+                    <span class="work">반응형</span>
+                </small>
+            </div>
+            <div class="thum_button">
+                <p class="prev"><img src="asset/img/main/arrow_left.png" alt="prev"></p>
+                <p class="next"><img src="asset/img/main/arrow_right.png" alt="next"></p>
+            </div>
+            <small class="box_text">An Sumi project</small>
+        </template>
         <div class="container">
             <section>
                 <div class="thum_box">
                     <ul class="box_img">
-                        <li class="shadow"><a href="#"><img src="asset/img/main/box_img_Shinil.jpg" alt="shinil polytech home page">
-                            <div class="thum_text">
-                                <p>PROJECT</p>
-                                <h2>Shinil polytech</h2>
-                                <small>
-                                    <span class="introduce">Renewal /</span>
-                                    <span class="work">반응형</span>
-                                </small>
-                            </div>
-                            <div class="thum_button">
-                                <p class="prev"><img src="asset/img/main/arrow_left.png" alt="prev"></p>
-                                <p class="next"><img src="asset/img/main/arrow_right.png" alt="next"></p>
-                            </div>
-                            <small class="box_text">An Sumi project</small>
+                        <li ><a href="#"><img src="asset/img/main/box_img_Shinil.jpg" alt="shinil polytech home page">
+                            
                         </a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_house.jpg" alt="house home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_portfolio.jpg" alt="portfolio home page"></a></li>

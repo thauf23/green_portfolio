@@ -12,75 +12,77 @@ $(function(){
     imgLi = $('.box_img li');
     for(var i=0; i<imgLi.length; i++){
         $('.box_img li').eq(i).css({
-            left: (i*138)+"%"
+            left: i*72+'%'
         });
     }
 
 // ----------- next ---------------------------------
     var w = 0;
-    var s = 2;
-    // +70.14
-    var n = [116.2, 186.34, 256.48, 326.62, 396.76, 466.9];
+    var s = 1;
+    $('.box_img li').eq(1).addClass('shadow');
+    var tem = $('#thum_tem ').html();
+    $('.shadow a').append(tem);
+    
     $('.thum_button .next').on('click',function(){
+        boxhide();
+        ++s;
         boxImg.animate({
-            left: "-"+n[w]+"%"
-        },1000,function(){
-            if(w == imgLi.length-3){
-                w = -1;
+            left: "-=72%"
+        },800,function(){
+            if(s >= imgLi.length-1){
                 s = 1;
                 setTimeout(function(){
                     boxImg.css({
-                        left: "-46%"
+                        left: "-47%"
                     });
                 },10);
             }
             boxchange();
-            ++s;
-            ++w;
         });
+        
     });
 
 // ----------- prev ---------------------------------
-    console.log(w);
-    var p = [24.5, 94.64];
-    $('.thum_button .prev').on('click',function(e){
-        console.log(w);
+    $('.thum_button .prev').on('click',function(){
+        boxhide();
+        --s;
         boxImg.animate({
-            left: "+"+p[w]+"%"
-        },1000,function(){
-            if(w == 0){
-                console.log("11");
-                w = 1;
+            left: "+=72%"
+        },800,function(){
+            if(s < 1){
                 s = 6;
                 setTimeout(function(){
                     boxImg.css({
-                        left: "-396.76%"
+                        left: "-407.001%"
                     });
                 },10);
             }
-            boxchange();
-            --s;
-            ++w;
+            setTimeout(boxchange,500);
         });
     });
 
+// ----------- 텍스트, 버튼 hide ---------------------------------
+    function boxhide(){
+        $('.box_img li').removeClass('shadow');
+        $('.thum_text').hide();
+        $('.thum_button').hide();
+        $('.box_text').hide();
+    }
+
 // ----------- 텍스트, 버튼 append ---------------------------------
+    
     function boxchange(){
         // project name
-        $('.thum_text').hide();
-        $('.box_img li').removeClass('shadow');
-        $('.box_img li').eq(s).addClass('shadow');
         insertion();
-        $('.shadow a').append($('.thum_text'));
-        $('.thum_text').fadeIn(1000);
+        $('.box_img li').eq(s).addClass('shadow');
+        $('.shadow a').append($('.box_img .thum_text'));
+        $('.thum_text').fadeIn(200);
         // button
-        $('.thum_button').hide();
-        $('.shadow a').append($('.thum_button'));
-        $('.thum_button').fadeIn(1000);
-        // box_tect
-        $('.box_text').hide();
-        $('.shadow a').append($('.box_text'));
-        $('.box_text').fadeIn(1000);
+        $('.shadow a').append($('.box_img .thum_button'));
+        $('.thum_button').fadeIn(200);
+        // box_text
+        $('.shadow a').append($('.box_img .box_text'));
+        $('.box_text').fadeIn(200);
     }
 
 // ----------- 텍스트 변경하기 ---------------------------------
@@ -91,9 +93,10 @@ $(function(){
             dataType : 'json',
             success :function(text){                
                 console.log("success:"+text);
-                $('.thum_text h2').text(text.projectName[w]);
-                $('.thum_text .introduce').text(text.introduce[w]);
-                $('.thum_text span .work').text(text.workingForm[w]);
+
+                $('.thum_text h2').text(text.projectName[s-1]);
+                $('.thum_text .introduce').text(text.introduce[s-1]);
+                $('.thum_text .work').text(text.workingForm[s-1]);
             },
             error: function(e) {
                             console.log("error: " + e);

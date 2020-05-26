@@ -24,18 +24,19 @@ section{
 
 }
 .thum_box .box_img{
-    width: 51%;
-    position: absolute;
-    left: -46%; top: 14%;
-    border: 1px solid #f00;
-}
-.thum_box .box_img li{
     width: 100%;
     position: absolute;
+    left: -47%; top: 14%;
+    
+}
+.thum_box .box_img li{
+    width: 52%;
+    position: absolute;
     left: 0; top: 0;
+    transition: .5s;
 }
 .thum_box .box_img li.shadow{
-    box-shadow: 0 5px 80px 0 rgba(255, 192, 193, .6);
+    box-shadow: 0 5px 80px 0 rgba(255, 192, 193, .6);    
 }
 .thum_box .box_img li a{
     width: 100%;
@@ -44,6 +45,8 @@ section{
     width: 100%;
     margin-bottom: -4px;
 }
+
+/* 52 + 20 + 47 */
 
 /* thum_list */
 .thum_list{

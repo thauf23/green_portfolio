@@ -5,6 +5,7 @@ header{
     align-items: flex-end;
     padding: 0 7.5em;
     position: relative;
+    z-index: 200;
 }
 header h1 a{
     color: #1c1b34;
@@ -17,8 +18,20 @@ header h1 a{
     -2px 2px 0 #ff484a,
     2px 2px 0 #ff484a;
 }
+header h1 a.color{
+    color: #ff484a;
+    text-shadow:
+    -2px -2px 0 #1c1b34,
+    2px -2px 0 #1c1b34,
+    -2px 2px 0 #1c1b34,
+    2px 2px 0 #1c1b34;
+}
 header nav{
     width: 380px;
+    opacity: 1;
+}
+header nav.hidein{
+    opacity: 0;
 }
 header nav ul{
     display: flex;

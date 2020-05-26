@@ -1,8 +1,12 @@
 .box{
-    position: relative;
+    width: 100%; height: 100vh;
+    position: absolute;
+    left: 0; top: 0;
+    z-index: -1;
+    display: none;
 }
 .buger{
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     background: #ff484a;
     display: flex;
     justify-content: center;
