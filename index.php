@@ -14,12 +14,12 @@
                                 <p>PROJECT</p>
                                 <h2>Shinil polytech</h2>
                                 <small>
-                                    Renewal /
-                                    <span>반응형</span>
+                                    <span class="introduce">Renewal /</span>
+                                    <span class="work">반응형</span>
                                 </small>
                             </div>
                             <div class="thum_button">
-                                <p><img src="asset/img/main/arrow_left.png" alt="prev"></p>
+                                <p class="prev"><img src="asset/img/main/arrow_left.png" alt="prev"></p>
                                 <p class="next"><img src="asset/img/main/arrow_right.png" alt="next"></p>
                             </div>
                             <small class="box_text">An Sumi project</small>
