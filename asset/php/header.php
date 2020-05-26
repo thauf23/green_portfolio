@@ -18,5 +18,5 @@
                     <li><a href="#">CONTACT ME</a></li>
                 </ul>
             </nav>
-            <div class="header_menu"><a href="#"></a></div>
+            <div class="header_menu"></div>
         </header>

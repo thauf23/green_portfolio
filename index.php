@@ -1,5 +1,5 @@
 
-<? 
+<?php
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/header.php";
 ?>
 
@@ -9,7 +9,7 @@
             <section>
                 <div class="thum_box">
                     <ul class="box_img">
-                        <li><a href="#"><img src="asset/img/main/box_img_Shinil.jpg" alt="Shinil polytech home page">
+                        <li class="shadow"><a href="#"><img src="asset/img/main/box_img_Shinil.jpg" alt="shinil polytech home page">
                             <div class="thum_text">
                                 <p>PROJECT</p>
                                 <h2>Shinil polytech</h2>
@@ -20,11 +20,11 @@
                             </div>
                             <div class="thum_button">
                                 <p><img src="asset/img/main/arrow_left.png" alt="prev"></p>
-                                <p><img src="asset/img/main/arrow_right.png" alt="next"></p>
+                                <p class="next"><img src="asset/img/main/arrow_right.png" alt="next"></p>
                             </div>
                             <small class="box_text">An Sumi project</small>
                         </a></li>
-                        <li class="shadow"><a href="#"><img src="asset/img/main/box_img_house.jpg" alt="house home page"></a></li>
+                        <li><a href="#"><img src="asset/img/main/box_img_house.jpg" alt="house home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_portfolio.jpg" alt="portfolio home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_space.jpg" alt="working home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_space.jpg" alt="working home page"></a></li>
@@ -46,7 +46,7 @@
             <strong><img src="asset/img/main/project_text.png" alt="project"></strong>
         </div>
 
-<? 
+<?php 
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/footer.php";
 ?>
 

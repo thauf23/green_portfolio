@@ -19,37 +19,39 @@ $(function(){
     }
 
 // ----------- next ---------------------------------
-    var w = 1;
-    var imgW, miNus;
-    $('.thum_button p').on('click',function(e){
-        // // var imgW = ($('.box_img li').eq(1).position().left)+($('.box_img li').eq(1).width())+(($('.box_img li').eq(1).width())/10);
-        // var imgW = ($('.box_img li').eq(1).position().left)+($('.box_img li img').width());
-        // console.log($('.box_img li').eq(1).position().left/2);
-        // var leftarrow =  "-"+(imgW);
-        // console.log(leftarrow);
-        
-        // imgW = $('.box_img li').width();
-        //  miNus = (("-" + imgW)*2.3*w); 
-        // miNus = ("-" + imgW)*(2.3*w); 
-        // console.log(miNus);
-        // var m = 138*w;
-        // console.log(m)
-        var p = [115,4645,5464,,4645,5646,];
+    var w = 0;
+    var s = 2;
+    $('.thum_button .next').on('click',function(e){
+        // +70.14
+        var p = [116.2, 186.34, 256.48, 326.62, 396.76, 466.9];
         
         boxImg.animate({
             left: "-"+p[w]+"%"
-            // left: "-"+236+"%"
-        },2000);
-        $('.thum_text').fadeOut(1);
-        $('.shadow a').append($('.thum_text'));
-        $('.thum_text').fadeIn(2000);
-        $('.thum_button').fadeOut(1);
-        $('.shadow a').append($('.thum_button'));
-        $('.thum_button').fadeIn(2000);
-        if(w == imgLi.length){
-            w = 0;
-        }
-        w++;
+        },800,function(){
+            if(w == imgLi.length-3){
+                w = -1;
+                s = 1;
+                setTimeout(function(){
+                    boxImg.css({
+                        left: "-46%"
+                    });
+                },10);
+            }
+            // project name
+            $('.thum_text').hide();
+            $('.box_img li').removeClass('shadow');
+            $('.box_img li').eq(s).addClass('shadow');
+            $('.shadow a').append($('.thum_text'));
+            $('.thum_text').fadeIn(1000);
+            // button
+            $('.thum_button').hide();
+            $('.shadow a').append($('.thum_button'));
+            $('.thum_button').fadeIn(1000);
+            ++s;
+            ++w;
+        });
+
+       
     });
 
 

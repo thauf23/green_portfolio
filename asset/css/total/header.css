@@ -52,6 +52,7 @@ header .header_menu{
     position: absolute;
     left: 50%; top: 0;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 header .header_menu::before{
     content: '';
@@ -67,6 +68,6 @@ header .header_menu::after{
     display: block;
     background: #1c1b34;
     margin: auto;
-    transform: translateY(8px) rotate(90deg);
+    transform: translateY(27px) rotate(90deg);
 }
 
