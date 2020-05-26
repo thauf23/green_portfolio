@@ -63,9 +63,6 @@ header .header_menu{
     transform: translateX(-50%);
     cursor: pointer;
 }
-/* header .header_menu.menu_color{
-    background: #ff484a;
-} */
 header .header_menu span{
     width: 35px; height: 1px;
     margin: auto;
@@ -73,21 +70,9 @@ header .header_menu span{
     background: #fff;
 }
 header .header_menu span:nth-of-type(1){
-    /* content: '';
-    width: 35px; height: 1px;
-    display: block; */
-    /* background: #1c1b34; */
-    /* background: #fff;
-    margin: auto; */
     transform: translateY(29px);
 }
 header .header_menu span:nth-of-type(2){
-    /* content: '';
-    width: 35px; height: 1px;
-    display: block; */
-    /* background: #1c1b34; */
-    /* background: #fff;
-    margin: auto; */
     transform: translateY(27px) rotate(90deg);
 }
 
