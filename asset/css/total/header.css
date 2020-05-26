@@ -28,10 +28,6 @@ header h1 a.color{
 }
 header nav{
     width: 380px;
-    opacity: 1;
-}
-header nav.hidein{
-    opacity: 0;
 }
 header nav ul{
     display: flex;
@@ -67,11 +63,15 @@ header .header_menu{
     transform: translateX(-50%);
     cursor: pointer;
 }
+/* header .header_menu.menu_color{
+    background: #ff484a;
+} */
 header .header_menu::before{
     content: '';
     width: 35px; height: 1px;
     display: block;
-    background: #1c1b34;
+    /* background: #1c1b34; */
+    background: #fff;
     margin: auto;
     transform: translateY(29px);
 }
@@ -79,7 +79,8 @@ header .header_menu::after{
     content: '';
     width: 35px; height: 1px;
     display: block;
-    background: #1c1b34;
+    /* background: #1c1b34; */
+    background: #fff;
     margin: auto;
     transform: translateY(27px) rotate(90deg);
 }
