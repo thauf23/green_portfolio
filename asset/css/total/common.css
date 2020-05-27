@@ -9,7 +9,7 @@ ul,li{
 a{
     color:#333;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 img{
     display: block;
@@ -33,8 +33,3 @@ span,em,strong,a{display: inline-block;}
     */
     
 }
-
-/* font-family: 'Kanit', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean,latin-ext,thai,vietnamese');
-/* font-family: 'Noto Sans KR', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
