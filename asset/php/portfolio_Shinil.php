@@ -7,7 +7,7 @@
     <link href="/asset/css/portfolio_shinil.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
-    <script src="/asset/js/portfolio_list.js"></script>
+    <script src="/asset/js/header_absolute.js"></script>
 </head>
 <body>
     <div id="warp">
@@ -18,7 +18,38 @@
 ?>
 
     <div class="container">
-        
+        <section class="shinil_visual">
+            <img src="../img/shinil/shinil_visual.jpg" alt="shinil img">
+        </section>
+        <section class="shinil_summary">
+            <h2>THE PROJECT</h2>
+            <p>
+                <span>Shinil polytech</span>
+                프로젝트는 그린컴퓨터 아카데미 수강생 조별과제로써, 기존 홈페이지를
+                <span>Renewal</span>
+                제작 하였습니다.
+            </p>
+            <p>
+                <span>HTML5, CSS3</span>
+                위주의 작업을 하였으며,
+            </p>
+            <p>
+                <span>CSS media</span>
+                를 이용하여 1100px, 1024px, 768px, 480px 반응형 처리
+            </p>
+            <p>
+                <span>Javascript</span>
+                로 메인 이미지를
+                <span>동적제어</span>
+                할 수 있도록 제작하였습니다. 
+            </p>
+            <a href="https://thauf23.github.io/Shinil_project/">https://thauf23.github.io/Shinil_project/</a>
+        </section>
+        <section class="shinil_contents">
+            <ul>
+                <li></li>
+            </ul>
+        </section>
     </div>
 
 <?php 

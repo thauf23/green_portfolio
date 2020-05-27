@@ -1,3 +1,41 @@
 #warp{
-    background: #1c1b34;
+    background: #353160;
 }
+
+/* header */
+header{
+    position: absolute;
+    left: 0; top: 0;
+}
+header h1 a{
+    color: #353160;
+}
+header nav ul li a{
+    color: #7473a0;
+}
+header nav ul li a:hover{
+    color: #ff8283;
+}
+header nav ul li:nth-of-type(1) a{
+    color: #fff;
+}
+header nav ul li:nth-of-type(1) a::after{
+    left: 0;
+}
+
+/* shinil_summary */
+.shinil_summary{
+    background: #fff;
+    text-align: center;
+    padding: 4.125em;
+}
+.shinil_summary h2{
+    font-size: 1.125rem;
+    color: #433ba4;
+}
+.shinil_summary p{}
+.shinil_summary p span{
+    font-size: 1.125rem;
+    color: #433ba4;
+}
+.shinil_summary a{}
