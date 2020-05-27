@@ -23,17 +23,16 @@ $(function(){
                             console.log("error: " + e);
                         }
         });
-    }
-
-    var winH = $(window).height();
-    var sTop = $(this).scrollTop();
-    var thumTop = $('.thum_img').offset().top;
-    var liTop = $('.thum_img li').offset().top;
-    var setTime = 700;
-    
+    }    
 
     $(window).on('scroll',function(){
-        // $('.thum_img li').each(function(i){
+        var winH = $(window).height();
+        var sTop = $(this).scrollTop();
+        // var thumTop = $('.thum_img').offset().top;
+        var liTop = $('.thum_img li').eq(0).offset().top;
+        var liTTop = $('.thum_img li').eq(3).offset().top;
+        var liTTTop = $('.thum_img li').eq(4).offset().top;
+        var setTime = 1000;
             if( liTop-winH < sTop ){
                 $('.thum_img li').eq(0).animate({
                     opacity: 1,
@@ -46,24 +45,30 @@ $(function(){
                     $('.thum_img li').eq(2).animate({
                         opacity: 1,
                         "margin-top": 0
-                },setTime,function(){
-                    $('.thum_img li').eq(3).animate({
-                        opacity: 1,
-                        "margin-top": "20em"
-                },setTime,function(){
-                    $('.thum_img li').eq(4).animate({
-                        opacity: 1,
-                        "margin-top": "25em"
-                },setTime,function(){
-                    $('.thum_img li').eq(5).animate({
-                        opacity: 1,
-                        "margin-top": "20em"
                 },setTime);
                 });
                 });
+            }
+            console.log("li = "+liTTop);
+            console.log("wi = "+winH);
+            console.log("st = "+sTop);
+            if( liTTop-winH < sTop ){
+                $('.thum_img li').eq(3).animate({
+                    opacity: 1,
+                    "margin-top": "6em"
+                },setTime,function(){
+                    $('.thum_img li').eq(5).animate({
+                        opacity: 1,
+                        "margin-top": "6em"
+                },setTime);
                 });
-                });
-                });
+            }
+
+            if( liTTTop-winH < sTop ){
+                $('.thum_img li').eq(4).animate({
+                    opacity: 1,
+                    "margin-top": "14em"
+                },setTime+1600);
             }
     });
     
