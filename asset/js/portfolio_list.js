@@ -28,11 +28,12 @@ $(function(){
     $(window).on('scroll',function(){
         var winH = $(window).height();
         var sTop = $(this).scrollTop();
-        // var thumTop = $('.thum_img').offset().top;
         var liTop = $('.thum_img li').eq(0).offset().top;
         var liTTop = $('.thum_img li').eq(3).offset().top;
         var liTTTop = $('.thum_img li').eq(4).offset().top;
-        var setTime = 1000;
+        var setTime = 700;
+
+            //첫줄
             if( liTop-winH < sTop ){
                 $('.thum_img li').eq(0).animate({
                     opacity: 1,
@@ -49,9 +50,8 @@ $(function(){
                 });
                 });
             }
-            console.log("li = "+liTTop);
-            console.log("wi = "+winH);
-            console.log("st = "+sTop);
+
+            //두번째 양옆
             if( liTTop-winH < sTop ){
                 $('.thum_img li').eq(3).animate({
                     opacity: 1,
@@ -63,16 +63,16 @@ $(function(){
                 },setTime);
                 });
             }
-
+            
+            //두번째 주앙
             if( liTTTop-winH < sTop ){
                 $('.thum_img li').eq(4).animate({
                     opacity: 1,
                     "margin-top": "14em"
-                },setTime+1600);
+                },setTime+4000);
             }
     });
     
     $(window).trigger('scroll');
-       
     // end
 });
