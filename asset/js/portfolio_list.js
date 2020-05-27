@@ -32,6 +32,7 @@ $(function(){
         var liTTop = $('.thum_img li').eq(3).offset().top;
         var liTTTop = $('.thum_img li').eq(4).offset().top;
         var setTime = 700;
+        // var setTimer = 900;
 
             //첫줄
             if( liTop-winH < sTop ){
@@ -69,7 +70,7 @@ $(function(){
                 $('.thum_img li').eq(4).animate({
                     opacity: 1,
                     "margin-top": "14em"
-                },setTime+4000);
+                },setTime);
             }
     });
     

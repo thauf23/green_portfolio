@@ -47,16 +47,18 @@ header nav ul li:nth-of-type(1) a::after{
 }
 .thum_img li{
     width: 26%;
-    margin-top: 16em;
+    margin-top: 14em;
     opacity: 0;
 }
 .thum_img li:nth-of-type(1),
-/* .thum_img li:nth-of-type(2), */
 .thum_img li:nth-of-type(3){
     margin-top: 6em;
 }
 .thum_img li:nth-of-type(2){
-    margin-top: 12em;
+    margin-top: 9em;
+}
+.thum_img li:nth-of-type(5){
+    margin-top: 20em;
 }
 .thum_img li a{}
 .thum_img li a figure{

@@ -7,7 +7,6 @@
     <link href="/asset/css/portfolio_list.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
-    <script src="/asset/js/portfolio_list.js"></script>
 </head>
 <body>
     <div id="warp">
@@ -16,6 +15,7 @@
 <?php
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/header.php";
 ?>
+<script src="/asset/js/portfolio_list.js"></script>
 
     <div class="container">
         <div class="thum_menu">
