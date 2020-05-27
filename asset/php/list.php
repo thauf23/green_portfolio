@@ -1,6 +1,7 @@
 <?php
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/header.php";
 ?>
+<script src="/asset/js/portfolio_list.js"></script>
 
     <div class="container">
         <div class="thum_menu">
