@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="thum_list">
-                    <a href="#">
+                    <a href="/asset/php/list.php">
                         <p><img src="asset/img/main/list_button.png" alt="list button"></p>
                         <span>LIST</span>
                     </a>

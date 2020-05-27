@@ -65,12 +65,12 @@ $(function(){
                 });
             }
             
-            //두번째 주앙
+            //두번째 중앙
             if( liTTTop-winH < sTop ){
                 $('.thum_img li').eq(4).animate({
                     opacity: 1,
                     "margin-top": "14em"
-                },setTime);
+                },setTime*2.3);
             }
     });
     
