@@ -22,9 +22,6 @@ $(function(){
     $('.box_img li').eq(1).addClass('shadow');
     var tem = $('#thum_tem ').html();
     $('.shadow a').append(tem);
-    // $('.box_img li').css({
-    //     "height": "80%"
-    // });
 
     $('.thum_button .next').on('click',function(){
         boxhide();

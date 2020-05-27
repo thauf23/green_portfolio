@@ -24,7 +24,7 @@ section{
 .thum_box .box_img{
     width: 100%;
     position: absolute;
-    left: -47%; top: 14%;
+    left: -47%; top: 10%;
 }
 .thum_box .box_img li{
     width: 52%;
@@ -36,7 +36,7 @@ section{
     filter: opacity(.4) drop-shadow(0 0 0 #1c1b34);
 }
 .thum_box .box_img li.shadow{
-    box-shadow: 0 5px 60px 0 rgba(255, 192, 193, .7);
+    box-shadow: 0 -1px 60px 5px rgba(255, 192, 193, .7);
     -webkit-filter: opacity(1) drop-shadow(0 0 0);
     filter: opacity(1) drop-shadow(0 0 0);
     transform: scale(1);
@@ -58,7 +58,7 @@ section{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    left: 24.5%; top: 10%;
+    left: 25.5%; top: 6%;
 }
 .thum_list > a{
     width: 64%;
@@ -85,6 +85,8 @@ section{
     display: inline-block;
     margin: 0 16px;
 }
+
+/* list_num */
 .thum_list .list_num{
     width: 36%;
     display: flex;
