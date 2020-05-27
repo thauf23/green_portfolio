@@ -1,3 +1,7 @@
+#warp{
+    background: #1c1b34;
+}
+
 /* header */
 header nav ul li a{
     color: #7473a0;
@@ -37,32 +41,19 @@ header nav ul li:nth-of-type(1) a::after{
 .thum_img{
     width: 100%; height: 100%;
     padding: 0 7.5em;
-    /* margin-top: 140px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* opacity: 0; */
-    /* transition: 1s; */
 }
 .thum_img li{
     width: 26%;
     margin-top: 20em;
     opacity: 0;
-    /* margin-top: 18.75em; */
-    /* transition: .5s; */
 }
 .thum_img li:nth-of-type(1),
 .thum_img li:nth-of-type(2),
 .thum_img li:nth-of-type(3){
     margin-top: 10em;
-}
-.thum_img li:nth-of-type(2){
-    /* margin-top: 6.25em; */
-}
-.thum_img li:nth-of-type(5){
-    /* margin-top: 25em; */
-    /* transform: translateY(6.25em); */
-    /* opacity: 0; */
 }
 .thum_img li a{}
 .thum_img li a figure{
