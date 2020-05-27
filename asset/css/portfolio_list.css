@@ -37,30 +37,32 @@ header nav ul li:nth-of-type(1) a::after{
 .thum_img{
     width: 100%; height: 100%;
     padding: 0 7.5em;
+    /* margin-top: 140px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* opacity: 0; */
+    /* transition: 1s; */
 }
 .thum_img li{
     width: 26%;
-    margin-top: 12.5em;
-    box-shadow: 0 5px 60px 0 rgba(0, 0, 0, .7);
-
-}
-.thum_img li:hover{
-    box-shadow: 0 -1px 20px 5px rgba(255, 192, 193, .7);
+    margin-top: 20em;
+    opacity: 0;
+    /* margin-top: 18.75em; */
+    /* transition: .5s; */
 }
 .thum_img li:nth-of-type(1),
 .thum_img li:nth-of-type(2),
 .thum_img li:nth-of-type(3){
-    margin-top: 0;
-
+    margin-top: 10em;
 }
-.thum_img li:nth-of-type(2),
+.thum_img li:nth-of-type(2){
+    /* margin-top: 6.25em; */
+}
 .thum_img li:nth-of-type(5){
-    position: relative;
-    left: 0; top: 4.375em;
-    /* transform: translateY(4.375em); */
+    /* margin-top: 25em; */
+    /* transform: translateY(6.25em); */
+    /* opacity: 0; */
 }
 .thum_img li a{}
 .thum_img li a figure{
@@ -69,6 +71,10 @@ header nav ul li:nth-of-type(1) a::after{
 .thum_img li a figure p{}
 .thum_img li a figure p img{
     margin-bottom: -4px;
+    box-shadow: 0 5px 60px 0 rgba(0, 0, 0, .7);
+}
+.thum_img li:hover a figure p img{
+    box-shadow: 0 -1px 20px 5px rgba(255, 192, 193, .7);
 }
 .thum_img li a figure figcaption{
     background: url('../img/list/thum_list_hover.png') no-repeat;
@@ -86,9 +92,10 @@ header nav ul li:nth-of-type(1) a::after{
 .thum_img li a figure figcaption small{
     display: block;
     color: #fff;
-    padding: 5em 0 1.875em;
+    padding: 5.625em 0 2.5em;
 }
 .thum_img li a figure figcaption span{
     font-size: 2.875em;
     color: #fff;
+    font-weight: bold;
 }
