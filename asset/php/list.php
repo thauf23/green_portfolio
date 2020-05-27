@@ -40,7 +40,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/index.php">
                     <figure>
                         <p><img src="../img/list/thum_list_portfolio.jpg" alt="portfolio home page"></p>
                     </figure>

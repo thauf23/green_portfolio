@@ -32,13 +32,19 @@
             </div>
             <small class="box_text">An Sumi project</small>
         </template>
+        <template id="button_tem">
+            <div class="thum_button">
+                <p class="prev"><img src="asset/img/main/arrow_left.png" alt="prev"></p>
+                <p class="next"><img src="asset/img/main/arrow_right.png" alt="next"></p>
+            </div>
+        </template>
         <div class="container">
             <section>
                 <div class="thum_box">
                     <ul class="box_img">
-                        <li><a href="#"><img src="asset/img/main/box_img_Shinil.jpg" alt="shinil polytech home page"></a></li>
+                        <li><a href="/asset/php/portfolio_Shinil.php"><img src="asset/img/main/box_img_Shinil.jpg" alt="shinil polytech home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_house.jpg" alt="house home page"></a></li>
-                        <li><a href="#"><img src="asset/img/main/box_img_portfolio.jpg" alt="portfolio home page"></a></li>
+                        <li><a href="/index.php"><img src="asset/img/main/box_img_portfolio.jpg" alt="portfolio home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_space.jpg" alt="working home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_space.jpg" alt="working home page"></a></li>
                         <li><a href="#"><img src="asset/img/main/box_img_space.jpg" alt="working home page"></a></li>

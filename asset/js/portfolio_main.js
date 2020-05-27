@@ -20,8 +20,10 @@ $(function(){
     var w = 0;
     var s = 1;
     $('.box_img li').eq(1).addClass('shadow');
-    var tem = $('#thum_tem ').html();
+    var tem = $('#thum_tem').html();
     $('.shadow a').append(tem);
+    var btnT = $('#button_tem').html();
+    $('.shadow').append(btnT);
 
     $('.thum_button .next').on('click',function(){
         boxhide();
@@ -78,7 +80,7 @@ $(function(){
         $('.shadow a').append($('.box_img .thum_text'));
         $('.thum_text').fadeIn(200);
         // button
-        $('.shadow a').append($('.box_img .thum_button'));
+        $('.shadow').append($('.box_img .thum_button'));
         $('.thum_button').fadeIn(200);
         // box_text
         $('.shadow a').append($('.box_img .box_text'));
