@@ -12,13 +12,16 @@ $(function(){
         },1300,function(){
             $('h2 span').animate({
                 opacity: ".2"
-            },20,function(){
+            },100,function(){
                 $('h2 span').animate({
                     opacity: 1
+                },500,function(){
+                    $('.scroll_down').animate({
+                        opacity: 1
+                    });
                 });
             });
-    });
+        });
     }
-
     // end
 });
