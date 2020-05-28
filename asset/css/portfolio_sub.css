@@ -94,7 +94,7 @@ header nav ul li:nth-of-type(1) a::after{
     color: #a3a3a3;
     position: absolute;
     top: 20px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 .sub_contents ul li:nth-of-type(1) small{
     left: -104px;
@@ -124,6 +124,25 @@ header nav ul li:nth-of-type(1) a::after{
     color: rgba(255, 130, 131, .7);
     position: absolute;
     left: 0; top: 0;
+}
+
+/* sub_detail */
+.sub_detail{
+    width: 100%;
+}
+.sub_detail figure{
+    width: 87.5%;
+    margin: 15em auto;
+    /* position: relative; */
+}
+.sub_detail figure p{}
+.sub_detail figure p img{}
+.sub_detail figure figcaption{
+    font-size: 0.875rem;
+    line-height: 2em;
+    color: #fff;
+    text-align: right;
+    transform: translateX(-2%) translateY(12%);
 }
 
 
