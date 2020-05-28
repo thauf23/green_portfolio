@@ -30,6 +30,15 @@ $(function(){
         });
     });
 
+// ----------- sub_text move---------------------------------
+    textMove();
+    function textMove(){
+        const subText = $('.sub_text');
+        const sPan = $('.sub_text span');
+        const cLone = sPan.clone();
+        subText.append(cLone);
+        
+    }
 
 
     
