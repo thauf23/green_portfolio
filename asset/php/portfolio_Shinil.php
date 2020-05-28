@@ -3,7 +3,7 @@
 <head>
 <title>Chase Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="/asset/css/integrated_main.css" type=text/css rel=stylesheet>
+    <link href="/asset/css/integrated_sub.css" type=text/css rel=stylesheet>
     <link href="/asset/css/portfolio_shinil.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
@@ -18,8 +18,14 @@
 ?>
 
     <div class="container">
-        <section class="shinil_visual">
-            <img src="../img/shinil/shinil_visual.jpg" alt="shinil img">
+        <section class="shinil_visual parents">
+            <p><img src="../img/shinil/shinil_visual.jpg" alt="shinil img"></p>
+            <div class="scroll_down">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="text">Scroll down</span>
+            </div>
         </section>
         <section class="shinil_summary">
             <h2>THE PROJECT</h2>
