@@ -35,7 +35,7 @@
         <section class="sub_summary">
             <h3>THE PROJECT</h3>
             <p>
-                <span>Shinil polytech</span>
+                <span>Shinil polytec</span>
                 프로젝트는 그린컴퓨터 아카데미 수강생 조별과제로써, 기존 홈페이지를
                 <span>Renewal</span>
                 제작 하였습니다.
@@ -71,7 +71,7 @@
             </ul>
         </section>
         <section class="sub_text">
-            <span>shinil polytec</span>
+            <span>SHINIL POLYTEC</span>
         </section>
         <section class="sub_detail">
             <figure>
