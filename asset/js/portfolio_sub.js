@@ -7,8 +7,17 @@ $(function(){
     function h2move(){
         console.log("aa");
         $('h2 span').animate({
+            opacity: 1,
             top: 0
-        },1000);
+        },1300,function(){
+            $('h2 span').animate({
+                opacity: ".2"
+            },20,function(){
+                $('h2 span').animate({
+                    opacity: 1
+                });
+            });
+    });
     }
 
     // end
