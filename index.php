@@ -20,11 +20,11 @@
 
         <template id="thum_tem">
             <div class="thum_text">
-                <p>PROJECT</p>
-                <h2>Shinil polytech</h2>
+                <p></p>
+                <h2></h2>
                 <small>
-                    <span class="introduce">Renewal /</span>
-                    <span class="work">반응형</span>
+                    <span class="introduce"></span>
+                    <span class="work"></span>
                 </small>
             </div>
             <div class="thum_button">

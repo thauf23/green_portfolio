@@ -105,6 +105,6 @@ $(function(){
                         }
         });
     }
-
+    insertion();
     // end
 });

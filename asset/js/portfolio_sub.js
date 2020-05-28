@@ -39,8 +39,8 @@ $(function(){
         var cLone = sPan.clone();
         subText.append(cLone);
         var spIndex = sPan.length;
-        var cLoneT = sPan.clone();
-        subText.prepend(cLoneT);
+        // var cLoneT = sPan.clone();
+        // subText.prepend(cLoneT);
         var spanFi;
         console.log(spIndex);
         // const cLone = sPan.clone();
@@ -58,7 +58,7 @@ $(function(){
     setInterval(function(){
         ++m;
         subText.animate({
-            left: "-" +(spanW*2)+ "px"
+            left: "-" +spanW+ "px"
         },24000,function(){
             // spanFi = $('.sub_text p span').eq(0);
             if(m > spIndex-1){
