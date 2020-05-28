@@ -73,6 +73,8 @@
         <section class="sub_text">
             <p>
                 <span>SHINILPOLYTEC</span>
+                <!-- <span>SHINILPOLYTEC</span>
+                <span>SHINILPOLYTEC</span> -->
             </p>
         </section>
         <section class="sub_detail">

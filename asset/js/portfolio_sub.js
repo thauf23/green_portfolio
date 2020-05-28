@@ -31,37 +31,37 @@ $(function(){
 
 // ----------- sub_text move---------------------------------
         const subText = $('.sub_text p');
-        const sPan = $('.sub_text p span');
+        var sPan = $('.sub_text p span');
         var spanW = sPan.width();
-        var pW = subText.width();
-        var spIndex = sPan.length;
+        // var pW = subText.width();
+       
         var m = 0;
         var cLone = sPan.clone();
         subText.append(cLone);
+        var spIndex = sPan.length;
         var cLoneT = sPan.clone();
-        subText.append(cLoneT);
+        subText.prepend(cLoneT);
         var spanFi;
-        // console.log(spanFi)
+        console.log(spIndex);
         // const cLone = sPan.clone();
         // subText.append(cLone);
         
     // ----------- 이미지 위치 ---------------------------------        
-        for(var a=0; a<sPan.length; a++){
-            console.log(a);
-            console.log(sPan);
+        for(var a=0; a<spIndex; a++){
             sPan.eq(a).css({
-                left: (spanW*a) + "px"
+                // left: a*spanW + "px"
+                left: spanW + "px"
             })
         }
-    
+    console.log(spIndex)
     // ----------- img move ---------------------------------
     setInterval(function(){
         ++m;
         subText.animate({
-            left: "-" +spanW+ "px"
+            left: "-" +(spanW*2)+ "px"
         },24000,function(){
-            spanFi = $('.sub_text p span').eq(0);
-            if(m > spIndex-2){
+            // spanFi = $('.sub_text p span').eq(0);
+            if(m > spIndex-1){
                 // $('.sub_text p').append(spanFi);
                 subText.css({
                     left: 0
