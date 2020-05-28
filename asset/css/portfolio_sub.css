@@ -23,45 +23,48 @@ header nav ul li:nth-of-type(1) a::after{
     left: 0;
 }
 
-/* shinil_summary */
-.shinil_summary{
+/* sub_summary */
+.sub_summary{
     background: #fff;
     text-align: center;
     padding: 4.125em;
 }
-.shinil_summary h3{
+.sub_summary h3{
     font-size: 1.125rem;
     color: #433ba4;
 }
-.shinil_summary h3::after{
+.sub_summary h3::after{
     content: '';
     width: 50px; height: 1px;
     margin: 8px auto 28px;
     background: #433ba4;
     display: block;
 }
-.shinil_summary p{
+.sub_summary p{
     line-height: 1.8em;
 }
-.shinil_summary p span{
+.sub_summary p span{
     font-size: 1.125rem;
     color: #433ba4;
     font-weight: bold;
 }
-.shinil_summary a{
+.sub_summary a{
     font-size: 1.125rem;
     color: #ff6668;
     font-weight: bold;
     padding-top: 40px;
     letter-spacing: .1em;
 }
-.shinil_summary a::after{
+.sub_summary a::after{
     content: '';
-    width: 100%; height: 1px;
-    background: #ff6668;
+    width: 100%; height: 2px;
+    border-bottom: 1px solid #ff6668;
     display: block;
-    margin-top: 2px;
+    margin-top: 4px;
 }
-.shinil_summary a:hover{
-    
+.sub_summary a:hover{
+    color: #ff0003;
+}
+.sub_summary a:hover::after{
+    background: #ff0003;
 }

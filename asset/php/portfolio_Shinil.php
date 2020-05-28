@@ -19,7 +19,7 @@
 ?>
 
     <div class="container">
-        <section class="shinil_visual parents">
+        <section class="sub_visual parents">
             <h2>
                 <span>Shinil p</span>
                 <span>olytech</span>
@@ -32,7 +32,7 @@
                 <span class="text">Scroll down</span>
             </div>
         </section>
-        <section class="shinil_summary">
+        <section class="sub_summary">
             <h3>THE PROJECT</h3>
             <p>
                 <span>Shinil polytech</span>
@@ -56,7 +56,7 @@
             </p>
             <a href="https://thauf23.github.io/Shinil_project/">https://thauf23.github.io/Shinil_project/</a>
         </section>
-        <section class="shinil_contents">
+        <section class="sub_contents">
             <ul>
                 <li></li>
             </ul>
