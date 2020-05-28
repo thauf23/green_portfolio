@@ -38,6 +38,7 @@ $(function(){
         const cLone = sPan.clone();
         subText.append(cLone);
         
+        
     }
 
 
