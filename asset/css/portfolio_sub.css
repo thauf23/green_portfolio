@@ -68,3 +68,27 @@ header nav ul li:nth-of-type(1) a::after{
 .sub_summary a:hover::after{
     background: #ff0003;
 }
+
+/* sub_contents */
+.sub_contents{
+    width: 100%;
+    padding-top: 15em;
+}
+.sub_contents ul{
+    width: 62.5%;
+    margin: 0 auto;
+}
+.sub_contents ul li{
+    margin-bottom: 15em;
+
+    width: 1200px; height: 600px;
+    border: 2px solid pink;
+}
+.sub_contents ul li small{}
+.sub_contents ul li .sub_video{}
+.sub_contents ul li .sub_video video{}
+
+
+
+
+

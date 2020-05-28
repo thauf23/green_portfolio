@@ -60,14 +60,36 @@
             <ul>
                 <li>
                     <small>01</small>
-                    <div class="container_video">
-                        <video autoplay loop muted poster="img/main/video_img.jpg" src="img/house_video.mp4" type="video/mp4"></video>
+                    <div class="sub_video">
+                        <!-- <video autoplay loop muted poster="" src="../video/shinil_polytec.mp4" type="video/mp4"></video> -->
                     </div>
+                </li>
+                <li>
+                    <p><img src="../img/shinil/shinil_monitor.png" alt=""></p>
+                    <small>02</small>
                 </li>
             </ul>
         </section>
+        <section class="sub_text">
+            <span>shinil polytec</span>
+        </section>
+        <section class="sub_detail">
+            <figure>
+                <p><img src="../img/shinil/shinil_detail.png" alt=""></p>
+                <figcaption>
+                신일폴리텍은 제가 처음으로 리뉴얼하여<br>
+                제작한 홈페이지입니다.<br>
+                로고부터 시작하여 디자인, 레이어 아웃 등 제작하면서부터<br>
+                완성된 HTML5, CSS3를 작성하기까지 수차례 지우고<br>
+                다시 작성하기를 반복하면서<br>
+                신일폴리텍을 제작 할 수 있었습니다.<br>
+                첫 제작한 홈페이지라 부족해 보이는 부분이 보이지만<br>
+                그와 반대로 애착을 가지고 있는<br>
+                홈페이지입니다.
+                </figcaption>
+            </figure>
+        </section>
     </div>
-
 <?php 
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/footer.php";
 ?>
