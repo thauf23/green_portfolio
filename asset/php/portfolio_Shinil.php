@@ -71,7 +71,9 @@
             </ul>
         </section>
         <section class="sub_text">
-            <span>SHINILPOLYTEC</span>
+            <p>
+                <span>SHINILPOLYTEC</span>
+            </p>
         </section>
         <section class="sub_detail">
             <figure>

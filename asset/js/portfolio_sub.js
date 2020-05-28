@@ -21,43 +21,60 @@ $(function(){
             if( numBer<sToo ){
                 $('.sub_contents ul li').eq(i).find('small').stop().animate({
                             top: "74%"
-                },700);
+                },900);
             }else{
                 $('.sub_contents ul li').eq(i).find('small').stop().animate({
                     top: "20px"
-                },700);
+                },900);
             }
         });
     });
 
 // ----------- sub_text move---------------------------------
-        const subText = $('.sub_text');
-        const sPan = $('.sub_text span');
+        const subText = $('.sub_text p');
+        const sPan = $('.sub_text p span');
+        var spanW = sPan.width();
+        var pW = subText.width();
+        var spIndex = sPan.length;
+        var m = 0;
+        const cLone = sPan.clone();
+        subText.append(cLone);
+        var spanFi;
+        // console.log(spanFi)
         // const cLone = sPan.clone();
         // subText.append(cLone);
     
     // ----------- 이미지 위치 ---------------------------------        
         for(var a=0; a<sPan.length; a++){
             sPan.eq(a).css({
-                left: "100%"
+                left: spanW + "px"
             })
         }
-
+        // left: "-"+ spanW + "px"
     // ----------- img move ---------------------------------        
     // textMove();
-    function textMove(){
-        const cLone = sPan.clone();
-        subText.append(cLone);
-        sPan.animate({
-            left: "-100%"
-        },14000,function(){
-            sPan.css({
+    setInterval(function(){
+        // m++;
+        spanFi = $('.sub_text p span').eq(0);
+        
+        // console.log("m = "+ m);
+        
+        subText.animate({
+            left: "-" +spanW+ "px"
+        },20000);
+        console.log(m);
+        if(m >= spIndex){
+            m = 0;
+                subText.css({
                 left: 0
-            })
-        });
-    }
+            });
+            subText.append(spanFi);
+        };
+        ++m;
+        
+    });
 
-    // setInterval("textMove()",1400);
+    
     
     // end
 });
