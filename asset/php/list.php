@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chase Portfolio</title>
+<title>An Sumi Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="/asset/css/integrated_main.css" type=text/css rel=stylesheet>
     <link href="/asset/css/portfolio_list.css" type=text/css rel=stylesheet>
