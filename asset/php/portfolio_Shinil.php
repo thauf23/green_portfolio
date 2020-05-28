@@ -19,6 +19,10 @@
 
     <div class="container">
         <section class="shinil_visual parents">
+            <h2>
+                <span>Shinil</span>
+                <span>polytech</span>
+            </h2>
             <p><img src="../img/shinil/shinil_visual.jpg" alt="shinil img"></p>
             <div class="scroll_down">
                 <div class="chevron"></div>
@@ -28,7 +32,7 @@
             </div>
         </section>
         <section class="shinil_summary">
-            <h2>THE PROJECT</h2>
+            <h3>THE PROJECT</h3>
             <p>
                 <span>Shinil polytech</span>
                 프로젝트는 그린컴퓨터 아카데미 수강생 조별과제로써, 기존 홈페이지를

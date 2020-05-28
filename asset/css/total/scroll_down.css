@@ -7,12 +7,13 @@
 .scroll_down{
     position: absolute;
     left: 50%; bottom: 12%;
-    transform: translateX(-72%);
+    transform: translateX(-86%);
     width: 24px;
     height: 24px;
 }
 .chevron {
     position: absolute;
+    left: 10%;
     width: 36px;
     height: 8px;
     opacity: 0;
