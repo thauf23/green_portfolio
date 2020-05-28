@@ -54,24 +54,19 @@ $(function(){
     // ----------- img move ---------------------------------        
     // textMove();
     setInterval(function(){
-        // m++;
-        spanFi = $('.sub_text p span').eq(0);
-        
-        // console.log("m = "+ m);
-        
+        ++m;
         subText.animate({
             left: "-" +spanW+ "px"
-        },20000);
-        console.log(m);
-        if(m >= spIndex){
-            m = 0;
+        },24000,function(){
+            spanFi = $('.sub_text p span').eq(0);
+            if(m >= spIndex-1){
+                $('.sub_text p').append(spanFi);
                 subText.css({
-                left: 0
-            });
-            subText.append(spanFi);
-        };
-        ++m;
-        
+                    left: 0
+                });
+                m = 0;
+            };
+        });        
     });
 
     
