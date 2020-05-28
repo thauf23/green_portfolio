@@ -14,12 +14,24 @@ h2 span{
     font-size: 10vw;
     font-weight: 600;
     color: #fff;
-    text-shadow: 5px 8px 10px rgba(203, 203, 203, .7);
     opacity: 0;
+    animation: h2move 3s forwards;
 }
 h2 span:nth-of-type(1){
     top: -50%;
 }
 h2 span:nth-of-type(2){
     top: 50%;
+}
+
+@keyframes h2move{
+    50%,60%{
+        top:0%; opacity:1; text-shadow: 5px 8px 10px rgba(203, 203, 203, 0);
+        transform:translate(0px,0px);
+    }
+    
+    100%{
+        opacity:1; top:0; text-shadow: 5px 8px 10px rgba(203, 203, 203, .7);
+        transform:translate(-5px,-5px);
+    }
 }
