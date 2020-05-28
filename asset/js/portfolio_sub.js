@@ -1,14 +1,16 @@
 $(function(){
     // start
+// ----------- img and number scroll event ---------------------------------
     $(window).on('scroll',function(){
         var winHe = $(window).height();
         var sTo = $(this).scrollTop();
         var liHe = $('.sub_contents ul li').height();
-        // console.log(liHe)
-        
-
+     
         $('.sub_contents ul li').each(function(i){
             var liSet = $('.sub_contents ul li').eq(i).offset().top;
+            var numBer =  $('.sub_contents ul li').eq(i).find('small').offset().top;
+            var sToo = sTo+200;
+
             if( liSet-winHe<sTo ){
                 $('.sub_contents ul li').eq(i).animate({
                     opacity: 1,
@@ -16,35 +18,19 @@ $(function(){
                 },1500);
             }
 
-            var numBer =  $('.sub_contents ul li').eq(i).find('small').offset().top;
-            if( numBer<sTo ){
-                $('.sub_contents ul li').eq(i).find('small').animate({
+            if( numBer<sToo ){
+                $('.sub_contents ul li').eq(i).find('small').stop().animate({
                             top: "70%"
-                },1200);
-            }
-
-            var liBot = liHe + $('.sub_contents ul li').offset().top;
-            console.log("to =" +liSet+liBot);
-            console.log("s =" +sTo);
-
-            if( liSet+liBot < sTo ){
-                $('.sub_contents ul li').eq(i).find('small').animate({
+                },700);
+            }else{
+                $('.sub_contents ul li').eq(i).find('small').stop().animate({
                     top: "20px"
-                },1200);
+                },700);
             }
-
-
         });
-
-        
-        
-        // if( number<sTo ){
-        //     $('.sub_contents ul li small').animate({
-        //         top: "90%"
-        //     });
-        // }
-        
     });
+
+
 
     
     // end

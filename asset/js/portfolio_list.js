@@ -1,5 +1,6 @@
 $(function(){
     // start
+// ----------- img text change ---------------------------------
     insertion();
     function insertion(){
         $.ajax({
@@ -23,8 +24,9 @@ $(function(){
                             console.log("error: " + e);
                         }
         });
-    }    
+    }
 
+// ----------- img scroll event ---------------------------------
     $(window).on('scroll',function(){
         var winH = $(window).height();
         var sTop = $(this).scrollTop();
