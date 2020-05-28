@@ -58,7 +58,12 @@
         </section>
         <section class="sub_contents">
             <ul>
-                <li></li>
+                <li>
+                    <small>01</small>
+                    <div class="container_video">
+                        <video autoplay loop muted poster="img/main/video_img.jpg" src="img/house_video.mp4" type="video/mp4"></video>
+                    </div>
+                </li>
             </ul>
         </section>
     </div>
