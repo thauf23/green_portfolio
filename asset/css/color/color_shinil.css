@@ -1,0 +1,14 @@
+#warp{
+    background: #353160;
+}
+
+/* sub_summary */
+.sub_summary h3{
+    color: #433ba4;
+}
+.sub_summary h3::after{
+    background: #433ba4;
+}
+.sub_summary p span{
+    color: #433ba4;
+}

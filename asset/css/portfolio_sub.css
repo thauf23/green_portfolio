@@ -1,6 +1,6 @@
-#warp{
+/* #warp{
     background: #353160;
-}
+} */
 
 /* header */
 header nav ul li a{
@@ -21,13 +21,13 @@ header nav ul li:nth-of-type(1) a::after{
 }
 .sub_summary h3{
     font-size: 1.125rem;
-    color: #433ba4;
+    /* color: #433ba4; */
 }
 .sub_summary h3::after{
     content: '';
     width: 50px; height: 1px;
     margin: 8px auto 28px;
-    background: #433ba4;
+    /* background: #433ba4; */
     display: block;
 }
 .sub_summary p{
@@ -35,7 +35,7 @@ header nav ul li:nth-of-type(1) a::after{
 }
 .sub_summary p span{
     font-size: 1.125rem;
-    color: #433ba4;
+    /* color: #433ba4; */
     font-weight: bold;
 }
 .sub_summary a{

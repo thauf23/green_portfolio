@@ -4,7 +4,7 @@
 <title>An Sumi Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="/asset/css/integrated_sub.css" type=text/css rel=stylesheet>
-    <link href="/asset/css/portfolio_sub.css" type=text/css rel=stylesheet>
+    <link href="/asset/css/color/color_shinil.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
     <script src="/asset/js/header_absolute.js"></script>
