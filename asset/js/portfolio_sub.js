@@ -1,10 +1,16 @@
 $(function(){
     // start
+    var winHe,sTo;
+// ----------- img and number scroll event ---------------------------------
+    function headerdown(){
+        // console.log(sTo);
+    }
+    
 // ----------- img and number scroll event ---------------------------------
     $(window).on('scroll',function(){
-        var winHe = $(window).height();
-        var sTo = $(this).scrollTop();
-     
+        winHe = $(window).height();
+        sTo = $(this).scrollTop();
+        headerdown();
         $('.sub_contents ul li').each(function(i){
             var liSet = $('.sub_contents ul li').eq(i).offset().top;
             var numBer =  $('.sub_contents ul li').eq(i).find('small').offset().top;
@@ -29,6 +35,7 @@ $(function(){
         });
     });
 
+    
 // ----------- sub_text move---------------------------------
         const subText = $('.sub_text p');
         var sPan = $('.sub_text p span');
@@ -59,7 +66,7 @@ $(function(){
         ++m;
         subText.animate({
             left: "-" +spanW+ "px"
-        },24000,function(){
+        },24000,'linear',function(){
             // spanFi = $('.sub_text p span').eq(0);
             if(m > spIndex-1){
                 // $('.sub_text p').append(spanFi);

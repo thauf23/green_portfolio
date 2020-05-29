@@ -27,7 +27,7 @@
         </div>
         <ul class="thum_img">
             <li>
-                <a href="/asset/php/portfolio_Shinil.php">
+                <a href="/asset/php/portfolio_shinil.php">
                     <figure>
                         <p><img src="../img/list/thum_list_shinil.jpg" alt="shinil polytech home page"></p>
                     </figure>
