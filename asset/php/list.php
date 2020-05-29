@@ -41,7 +41,7 @@
                 </a>
             </li>
             <li>
-                <a href="/index.php">
+                <a href="/asset/php/portfolio_sumi.php">
                     <figure>
                         <p><img src="../img/list/thum_list_portfolio.jpg" alt="portfolio home page"></p>
                     </figure>

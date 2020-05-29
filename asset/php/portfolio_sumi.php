@@ -4,7 +4,7 @@
 <title>An Sumi Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="/asset/css/integrated_sub.css" type=text/css rel=stylesheet>
-    <link href="/asset/css/color/color_house.css" type=text/css rel=stylesheet>
+    <link href="/asset/css/color/color_sumi.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
     <script src="/asset/js/header_absolute.js"></script>
@@ -22,10 +22,10 @@
     <div class="container">
         <section class="sub_visual parents">
             <h2>
-                <span>H O</span>
-                <span>U S E</span>
+                <span>A N S</span>
+                <span>U M I</span>
             </h2>
-            <p><img src="../img/house/house_visual.jpg" alt="house img"></p>
+            <p><img src="../img/sumi/sumi_visual.jpg" alt="sumi img"></p>
             <div class="scroll_down">
                 <div class="chevron"></div>
                 <div class="chevron"></div>
@@ -73,7 +73,7 @@
         </section>
         <section class="sub_text">
             <p>
-                <span>HOUSE</span>
+                <span>ANSUMIPORTFOLIO</span>
             </p>
         </section>
         <section class="sub_detail">
