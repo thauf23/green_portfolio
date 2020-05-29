@@ -7,7 +7,7 @@ header{
     position: relative;
     z-index: 200;
 }
-header h1 a{
+/* header h1 a{
     color: #1c1b34;
     font-size: 4.375rem;
     font-family: 'Changa One', cursive;
@@ -17,15 +17,15 @@ header h1 a{
     2px -2px 0 #ff484a,
     -2px 2px 0 #ff484a,
     2px 2px 0 #ff484a;
-}
-header h1 a.color{
+} */
+/* header h1 a.color{
     color: #ff484a;
     text-shadow:
     -2px -2px 0 #fff,
     2px -2px 0 #fff,
     -2px 2px 0 #fff,
     2px 2px 0 #fff;
-}
+} */
 header nav{
     width: 380px;
 }
