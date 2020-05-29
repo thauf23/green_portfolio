@@ -1,6 +1,6 @@
 
         <header>
-            <h1><a href="/index.php">An Sumi</a></h1>
+            <h1><a href="/index.php"><img src="/asset/img/logo/logo_pink.png" alt="An Sumi home page"></a></h1>
             <nav>
                 <ul>
                     <li><a href="/asset/php/list.php">WORK</a></li>
