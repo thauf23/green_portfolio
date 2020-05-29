@@ -1,11 +1,43 @@
 $(function(){
     // start
     var winHe,sTo;
-// ----------- img and number scroll event ---------------------------------
+// ----------- header ---------------------------------
+    headerdown();
     function headerdown(){
-        // console.log(sTo);
+        var sumMary = $('.sub_contents').offset().top;
+        
+        if( sTo>sumMary ){
+            $('header').css({
+                position: "fixed",
+                background: "#fff"
+            });
+            $('header h1 a').css({
+                color: "#fff"
+            });
+            $('header nav ul li:first a').css({
+                color: "#ff8283"
+            });
+            $('.header_menu').css({
+                background: "#ff8283"
+            });
+        } else {
+            $('header').css({
+                position: "absolute",
+                background: "transparent",
+                boxShadow: "none"
+            });
+            $('header h1 a').css({
+                color: "#353160"
+            });
+            $('header nav ul li:first a').css({
+                color: "#fff"
+            });
+            $('.header_menu').css({
+                background: "#ff484a"
+            });
+        }
     }
-    
+
 // ----------- img and number scroll event ---------------------------------
     $(window).on('scroll',function(){
         winHe = $(window).height();
@@ -40,36 +72,26 @@ $(function(){
         const subText = $('.sub_text p');
         var sPan = $('.sub_text p span');
         var spanW = sPan.width();
-        // var pW = subText.width();
        
         var m = 0;
         var cLone = sPan.clone();
         subText.append(cLone);
         var spIndex = sPan.length;
-        // var cLoneT = sPan.clone();
-        // subText.prepend(cLoneT);
-        var spanFi;
-        console.log(spIndex);
-        // const cLone = sPan.clone();
-        // subText.append(cLone);
         
     // ----------- 이미지 위치 ---------------------------------        
         for(var a=0; a<spIndex; a++){
             sPan.eq(a).css({
-                // left: a*spanW + "px"
                 left: spanW + "px"
             })
         }
-    console.log(spIndex)
+
     // ----------- img move ---------------------------------
     setInterval(function(){
         ++m;
         subText.animate({
             left: "-" +spanW+ "px"
         },24000,'linear',function(){
-            // spanFi = $('.sub_text p span').eq(0);
             if(m > spIndex-1){
-                // $('.sub_text p').append(spanFi);
                 subText.css({
                     left: 0
                 });
@@ -78,7 +100,5 @@ $(function(){
         });        
     });
 
-    
-    
     // end
 });
