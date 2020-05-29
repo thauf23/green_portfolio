@@ -11,9 +11,6 @@ $(function(){
                 position: "fixed",
                 background: "#fff"
             });
-            $('header h1 a').css({
-                color: "#fff",
-            });
             $('header nav ul li:first a').css({
                 color: "#ff8283"
             });
@@ -23,12 +20,7 @@ $(function(){
         } else {
             $('header').css({
                 position: "absolute",
-                background: "transparent",
-                boxShadow: "none"
-            });
-            $('header h1 a').css({
-                color: "#353160"
-                // textShadow: "none"
+                background: "transparent"
             });
             $('header nav ul li:first a').css({
                 color: "#fff"

@@ -6,26 +6,8 @@ header{
     padding: 0 7.5em;
     position: relative;
     z-index: 200;
+    transition: 1s;
 }
-/* header h1 a{
-    color: #1c1b34;
-    font-size: 4.375rem;
-    font-family: 'Changa One', cursive;
-    letter-spacing: 0.1em;
-    text-shadow:
-    -2px -2px 0 #ff484a,
-    2px -2px 0 #ff484a,
-    -2px 2px 0 #ff484a,
-    2px 2px 0 #ff484a;
-} */
-/* header h1 a.color{
-    color: #ff484a;
-    text-shadow:
-    -2px -2px 0 #fff,
-    2px -2px 0 #fff,
-    -2px 2px 0 #fff,
-    2px 2px 0 #fff;
-} */
 header nav{
     width: 380px;
 }
