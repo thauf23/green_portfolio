@@ -12,6 +12,12 @@
                     <strong>ABOUT</strong>
                 </a>
             </li>
+            <li>
+                <a href="#">
+                    <small>03</small>
+                    <strong>CONTACT ME</strong>
+                </a>
+            </li>
         </ul>
         <span>An Sumi Project</span>
     </div>
