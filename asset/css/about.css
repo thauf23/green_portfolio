@@ -8,18 +8,19 @@ header{
     overflow: hidden;
 }
 .about_left{
-    width: 50%; height: 100%;
+    width: 50%; height: 100vh;
     float: left;
     background: #fdcaca;
 }
 .about_left p{
-    /* width: 58%; */
-    /* position: relative; */
+    width: 100%;
+    position: relative;
 }
 .about_left p img{
-    /* width: 29%; */
-    /* position: fixed; */
-    /* left: 0; top: 0; */
+    width: 29%;
+    position: fixed;
+    left: 50%; top: 50%;
+    transform: translate(-50%);
 }
 
 
