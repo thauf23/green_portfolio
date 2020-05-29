@@ -16,7 +16,9 @@ $(function(){
             $('header nav').hide();
             chAn = imgS.replace(pinK,whitE);
             logoI.attr('src',chAn);
-            $('.header_menu').hide().css("background","#fff");
+            $('.header_menu').hide().css({
+                background: "#fff"
+            });
             $('.header_menu span').css("background","#ff484a");
             $('.header_menu').fadeIn()
         }else{
@@ -24,7 +26,9 @@ $(function(){
                 $('header nav').fadeIn();
                 chAn = imgS.replace(whitE,pinK);
                 logoI.attr('src',chAn);
-                $('.header_menu').css("background","#ff484a");
+                $('.header_menu').css({
+                    background: "#ff484a"
+                });
                 $('.header_menu span').css("background","#fff");
             },400);
         }

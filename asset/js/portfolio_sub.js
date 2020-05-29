@@ -4,9 +4,10 @@ $(function(){
 // ----------- header ---------------------------------
     headerdown();
     function headerdown(){
-        var sumMary = $('.sub_contents').offset().top;
-        
-        if( sTo>sumMary ){
+        var sumMary = $('.sub_summary').offset().top;
+        var summAry = sumMary + 180;
+    
+        if( sTo>summAry ){
             $('header').css({
                 position: "fixed",
                 background: "#fff"

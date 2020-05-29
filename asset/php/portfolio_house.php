@@ -9,6 +9,7 @@
     <script src="/asset/js/portfolio_buger.js"></script>
     <script src="/asset/js/header_absolute.js"></script>
     <script src="/asset/js/portfolio_sub.js"></script>
+    <script src="/asset/js/portfolio_house.js"></script>
 </head>
 <body>
     <div id="warp">
