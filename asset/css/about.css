@@ -1,0 +1,41 @@
+/* about_left */
+header{
+    position: fixed;
+    left: 0; top: 0;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.about_left{
+    width: 50%; height: 100%;
+    float: left;
+    background: #fdcaca;
+}
+.about_left p{
+    /* width: 58%; */
+    /* position: relative; */
+}
+.about_left p img{
+    /* width: 29%; */
+    /* position: fixed; */
+    /* left: 0; top: 0; */
+}
+
+
+
+
+
+
+
+
+
+/* about_right */
+.about_right{
+    width: 50%;
+    float: right;
+    background: #3a2222;
+}
+
+
+

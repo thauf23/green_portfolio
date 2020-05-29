@@ -4,7 +4,7 @@
             <nav>
                 <ul>
                     <li><a href="/asset/php/list.php">WORK</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="/asset/php/about.php">ABOUT</a></li>
                     <li><a href="#">CONTACT ME</a></li>
                 </ul>
             </nav>

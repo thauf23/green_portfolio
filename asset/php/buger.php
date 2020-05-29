@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/asset/php/about.php">
                     <small>02</small>
                     <strong>ABOUT</strong>
                 </a>
