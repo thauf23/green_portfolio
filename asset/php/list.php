@@ -34,7 +34,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/asset/php/portfolio_house.php">
                     <figure>
                         <p><img src="../img/list/thum_list_house.jpg" alt="house home page"></p>
                     </figure>

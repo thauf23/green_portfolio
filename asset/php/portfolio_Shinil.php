@@ -14,7 +14,7 @@
     <div id="warp">
         <!-- start -->
 
-<?php
+<?php 
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/header.php";
 ?>
 
@@ -73,8 +73,6 @@
         <section class="sub_text">
             <p>
                 <span>SHINILPOLYTEC</span>
-                <!-- <span>SHINILPOLYTEC</span>
-                <span>SHINILPOLYTEC</span> -->
             </p>
         </section>
         <section class="sub_detail">

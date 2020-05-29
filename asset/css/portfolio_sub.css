@@ -3,22 +3,12 @@
 }
 
 /* header */
-/* header{
-    position: absolute;
-    left: 0; top: 0;
-} */
-/* header h1 a{
-    color: #353160;
-} */
 header nav ul li a{
     color: #7473a0;
 }
 header nav ul li a:hover{
     color: #ffb1b2;
 }
-/* header nav ul li:nth-of-type(1) a{
-    color: #fff;
-} */
 header nav ul li:nth-of-type(1) a::after{
     left: 0;
 }

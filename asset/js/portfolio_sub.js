@@ -12,7 +12,7 @@ $(function(){
                 background: "#fff"
             });
             $('header h1 a').css({
-                color: "#fff"
+                color: "#fff",
             });
             $('header nav ul li:first a').css({
                 color: "#ff8283"
@@ -28,6 +28,7 @@ $(function(){
             });
             $('header h1 a').css({
                 color: "#353160"
+                // textShadow: "none"
             });
             $('header nav ul li:first a').css({
                 color: "#fff"
@@ -67,7 +68,6 @@ $(function(){
         });
     });
 
-    
 // ----------- sub_text move---------------------------------
         const subText = $('.sub_text p');
         var sPan = $('.sub_text p span');

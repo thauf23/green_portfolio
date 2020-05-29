@@ -21,8 +21,8 @@
     <div class="container">
         <section class="sub_visual parents">
             <h2>
-                <span>Shinil p</span>
-                <span>olytech</span>
+                <span>H O U </span>
+                <span> S E</span>
             </h2>
             <p><img src="../img/shinil/shinil_visual.jpg" alt="shinil img"></p>
             <div class="scroll_down">
@@ -73,8 +73,6 @@
         <section class="sub_text">
             <p>
                 <span>SHINILPOLYTEC</span>
-                <!-- <span>SHINILPOLYTEC</span>
-                <span>SHINILPOLYTEC</span> -->
             </p>
         </section>
         <section class="sub_detail">
