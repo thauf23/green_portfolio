@@ -26,31 +26,31 @@
             <strong>An Summi</strong>
             <p>
                 <span>let</span>
-                <span>ssum</span>
-                <small>=[</small>
-                <span>
-                    “안녕하세요. 경쾌, 발랄, 성실한 안수미입니다.”,<br>
-                    “세상에서 제일 해로운 벌레는 대충(蟲)이라고 합니다.”,<br>
-                    “대충하지 않고, 꼼꼼하게, 열정적으로, 주도적으로, 창의적으로 하겠습니다.”<br>
-                </span>
+                <strong>ssum</strong>
+                <small>= [</small><br>
+                <small>
+                    <span>“안녕하세요. 경쾌, 발랄, 성실한 안수미입니다.”,</span>
+                    <span>“세상에서 제일 해로운 벌레는 대충(蟲)이라고 합니다.”,</span>
+                    <span>“대충하지 않고, 꼼꼼하게, 열정적으로, 주도적으로, 창의적으로 하겠습니다.”</span>
+                </small>
                 <small>]</small>
             </p>
             <p>
                 <span>const</span>
-                <span>Birth</span>
-                <span>= “ 1987.06.19 ”;</span>
+                <strong>Birth</strong>
+                <small>= “ 1987.06.19 ”;</small>
             </p>
             <p>
                 <span>var</span>
-                <span>cAll, eMail;</span>
+                <strong>cAll, eMail;</strong>
             </p>
             <p>
                 <span>if</span>
                 <small>( 핸드폰을 가지고 있다 ){</small>
-                <span>cAll</span>
+                <strong>cAll</strong>
                 <small>= “ 010 - 3542 - 6239 ”;</small>
                 <small>} else {</small>
-                <span>eMail</span>
+                <strong>eMail</strong>
                 <small>= “ thauf23@naver.com ”;</small>
                 <small>}</small>
             </p>
