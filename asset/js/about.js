@@ -3,6 +3,7 @@ $(function(){
 
 // ----------- header 위치 ---------------------------------
     var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp;
+    
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
         windowHeight = $(this).height();
@@ -11,15 +12,16 @@ $(function(){
         headerChange = windowHeight/15.5;
         pp = headerHeight - headerChange;
 
+// ----------- header 위치 ---------------------------------
         if( windowScroll > 0 ){
             $('header').css({
                 height: headerChange,
                 top: headerTop + pp,
                 background: "#fff"
             });
-            $('.about_left p').css({
+            $('.about_left p').stop().animate({
                 top: "42%"
-            });
+            },700);
             $('header nav ul li').eq(1).find('a').css({
                 color: "#ff484a"
             });
@@ -36,19 +38,40 @@ $(function(){
                 background: "transparent",
                 height: "12vh"
             });
-            $('.about_left p').css({
+            $('.about_left p').stop().animate({
                 top: "54%"
-            });
+            },700);
             $('header nav ul li').eq(1).find('a').css({
                 color: "#fff"
             });            
         }
+// ----------- dd 위치 ---------------------------------
+        // var ddOffset = $('.skill dd').offset().top;
+        // var ddHeight = $('.skill dd').height();
+        // var ddPlus = ddOffset + ddHeight;
+        var ddOffset, ddHeight, ddPlus;
+        for( var v=0; v<$('.skill dd').length; v++ ){
+            ddOffset = $('.skill dd').eq(v).offset().top;
+            ddHeight = $('.skill dd').height();
+            ddPlus = ddOffset + ddHeight;
+            console.log(v);
+            if( ddPlus-windowHeight < windowScroll){
+                // console.log(ddPlus);
+                // for(var j=0;j<skilL.length;j++){
+                //     // if(ddPlus)
+                //     var a = gauge($('dd').eq(j).find('.skill_b div').data('p'), j);
+                //     a();
+                // }
+            }
+        }
+        console.log($('.skill dd').length);
+        // console.log(ddOffset);
+        
     });
 
 // ----------- %% ---------------------------------
-    var skilL = $('.skill_b');
-    var skillNum = $('.skill_b div');
-    
+var skilL = $('.skill_b');
+
     function gauge(sk,z){
         var i = 0, loop='';
        
@@ -68,12 +91,12 @@ $(function(){
             
        }
     }
-    
-    for(var j=0;j<skilL.length;j++){
-        var a = gauge($('dd').eq(j).find('.skill_b div').data('p'), j);
-        a();
-    }
+//     function sTop(){
+//     for(var j=0;j<skilL.length;j++){
+//         var a = gauge($('dd').eq(j).find('.skill_b div').data('p'), j);
+//         a();
+//     }
         
-
+// }
     //end
 });

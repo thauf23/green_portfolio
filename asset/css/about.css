@@ -53,7 +53,7 @@ header nav ul li:nth-of-type(2) a::after{
     line-height: 2em;
 }
 .about_right p:nth-of-type(1){
-    margin-bottom: 3.125em;
+    margin-bottom: 1.25em;
 }
 .about_right p > strong{
     color: #ffb7c5;
@@ -94,6 +94,7 @@ header nav ul li:nth-of-type(2) a::after{
 .skill dd{
     width: 38%;
     margin: 3.125em 2em 0;
+    /* margin: 10em 2em 0; */
 }
 .skill dd .skill_b{
     width: 190px; height: 190px;
@@ -125,6 +126,7 @@ header nav ul li:nth-of-type(2) a::after{
 .skill dd .skill_text h4{
     font-size: 1.5rem;
     color: #fff;
+    margin-bottom: .5em;
 }
 .skill dd .skill_text p{
     font-size: 0.75rem;

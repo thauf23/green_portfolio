@@ -55,7 +55,7 @@
                 <small>}</small>
             </p>
             <dl class= "skill">
-                <!-- <dt>SKILL</dt> -->
+                <dt>SKILL</dt>
                 <dd>
                     <div class="skill_b">
                         <div data-p="90">0%</div>
@@ -72,7 +72,7 @@
                     <div class="skill_text">
                         <h4>CSS</h4>
                         <p>
-                            - CSS3를 활용한 다양한 스타일 구현 가능 <br><br>
+                            - CSS3를 활용한 다양한 스타일 구현 가능 <br>
                             - 미디어쿼리를 이용한 반응형 사이트제작 가능
                         </p>
                     </div>
@@ -93,7 +93,7 @@
                     <div class="skill_text">
                         <h4>J-query</h4>
                         <p>
-                            - 무한 슬라이드, 이미지 전환<br><br>
+                            - 무한 슬라이드, 이미지 전환<br>
                             - 스크롤, 클릭, 마우스 이벤트 등
                         </p>
                     </div>
