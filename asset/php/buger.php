@@ -15,7 +15,7 @@
             <li>
                 <a href="#">
                     <small>03</small>
-                    <strong>CONTACT ME</strong>
+                    <strong>CONTACT US</strong>
                 </a>
             </li>
         </ul>

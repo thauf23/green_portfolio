@@ -5,7 +5,7 @@
                 <ul>
                     <li><a href="/asset/php/list.php">WORK</a></li>
                     <li><a href="/asset/php/about.php">ABOUT</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="#">CONTACT US</a></li>
                 </ul>
             </nav>
             <div class="header_menu">
