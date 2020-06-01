@@ -23,7 +23,7 @@
             <p><img src="../img/sumi/about_me.jpg" alt="me"></p>
         </section>
         <section class="about_right">
-            <strong>An Summi</strong>
+            <h3>An Summi</h3>
             <p>
                 <span>let</span>
                 <strong>ssum</strong>
@@ -54,6 +54,65 @@
                 <small>= “ thauf23@naver.com ” ;</small><br>
                 <small>}</small>
             </p>
+            <dl class= "skill">
+                <dt>SKILL</dt>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="90">0%</div>
+                    </div>
+                    <h4>HTML5</h4>
+                    <p>웹표준, 접근성을 고려한 하드코딩 가능</p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="90">0%</div>
+                    </div>
+                    <h4>CSS</h4>
+                    <p>
+                        - CSS3를 활용한 다양한 스타일 구현 가능 <br>
+                        - 미디어쿼리를 이용한 반응형 사이트제작 가능
+                    </p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="50">0%</div>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p>간단한 스크립트 제작</p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="70">0%</div>
+                    </div>
+                    <h4>J-query</h4>
+                    <p>
+                        - 무한 슬라이드, 이미지 전환<br>
+                        - 스크롤, 클릭, 마우스 이벤트 등
+                    </p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="50">0%</div>
+                    </div>
+                    <h4>Ajax</h4>
+                    <p>json을 활용하여 이미지 컨트롤 가능</p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="30">0%</div>
+                    </div>
+                    <h4>PHP</h4>
+                    <p>데이터베이스와 상호작용 하면서 데이터를 저장하고 표현</p>
+                </dd>
+                <dd>
+                    <div class="skill_b">
+                        <div data-p="70">0%</div>
+                    </div>
+                    <h4>Photoshop</h4>
+                    <p>기본 디자인툴을 이용한 디자인적 이미지 편집 가능</p>
+                </dd>
+            </dl>
+            
         </section>
     </div>
 <?php 

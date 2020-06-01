@@ -30,7 +30,7 @@ header{
     background: #3a2222;
     padding: 14.25em 7.5em;
 }
-.about_right > strong{
+.about_right h3{
     font-size: 3.75rem;
     margin-bottom: 1.2em;
     color: #fff;
@@ -54,7 +54,6 @@ header{
 .about_right p:nth-of-type(1) small:nth-of-type(2){
     margin: 1em 0;
     display: block;
-    /* border: 1px solid #fff; */
 }
 .about_right p:nth-of-type(1) small:nth-of-type(2) > span{
     font-size: 0.875rem;
@@ -66,3 +65,67 @@ header{
     margin-left: 1.5em;
 }
 
+/* skill */
+.skill{
+    border: 1px soli pink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skill dt{
+    width: 100%;
+    font-size: 1.875rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 3.6em 0 1.5em;
+}
+.skill dd{
+    width: 44%;
+    margin-top: 3.125em;
+}
+.skill dd .skill_b{
+    width: 190px; height: 190px;
+    background:conic-gradient(from 0deg,#e9103a 1%,#fff 0%);
+    border-radius: 50%;
+    position: relative;
+}
+.skill dd .skill_b > div{
+    width: 60%; height: 60%;
+    background: #3a2222;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Aclonica', sans-serif;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill dd h4{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.skill dd p{
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+/* <script>
+        var g3 = document.querySelector('.g3');
+        var i=0;
+        function skill(k){
+            loop = setInterval(function(){
+                if(i == k){
+                    clearInterval(loop);
+                    i=0;
+                    return;
+                }
+                i++;
+                g3.children[0].textContent = i+"%";
+                g3.style = `background:conic-gradient(from 0deg,#f00 ${i}%,#000 0%)`;
+            },10);
+        }
+        skill(g3.children[0].dataset.p);
+    </script> */
