@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/asset/php/contact_us.php">
                     <small>03</small>
                     <strong>CONTACT US</strong>
                 </a>

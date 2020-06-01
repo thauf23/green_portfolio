@@ -7,7 +7,6 @@
     <link href="/asset/css/about.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
-    <!-- <script src="/asset/js/header_absolute.js"></script> -->
     <script src="/asset/js/about.js"></script>
 </head>
 <body>
