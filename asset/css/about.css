@@ -6,30 +6,21 @@ header{
 .container{
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 .about_left{
     width: 50%; height: 100vh;
     float: left;
     background: #fdcaca;
+    position: fixed;
 }
 .about_left p{
-    width: 100%;
+    width: 58%;
     position: relative;
-}
-.about_left p img{
-    width: 29%;
-    position: fixed;
     left: 50%; top: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
-
+.about_left p img{}
 
 /* about_right */
 .about_right{
