@@ -1,15 +1,18 @@
 /* header */
 header{
     position: fixed;
-    left: 0; top: 0;
+    left: 0;
 }
-header nav ul li:nth-of-type(2) a {
+header nav ul li:nth-of-type(2) a{
     color: #fff;
 }
-header nav ul li:nth-of-type(1) a::after {
+header nav ul li:nth-of-type(1) a::after{
     left: -101%;
 }
-header nav ul li:nth-of-type(2) a::after {
+header nav ul li:nth-of-type(1):hover a::after{
+    left: 0;
+}
+header nav ul li:nth-of-type(2) a::after{
     left: 0;
 }
 
@@ -79,8 +82,9 @@ header nav ul li:nth-of-type(2) a::after {
 /* skill */
 .skill{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
     flex-wrap: wrap;
+    /* padding: 3em; */
 }
 .skill dt{
     width: 100%;
@@ -90,15 +94,13 @@ header nav ul li:nth-of-type(2) a::after {
     padding: 3.6em 0 1.5em;
 }
 .skill dd{
-    width: 44%;
-    /* width: 280px; */
-
-    margin-top: 3.125em;
+    width: 38%;
+    margin: 3.125em 2em 0;
     border: 1px solid #fff;
 }
 .skill dd .skill_b{
     width: 190px; height: 190px;
-    background:conic-gradient(from 0deg,#e9103a 1%,#fff 0%);
+    background:conic-gradient(from 0deg,#e9103a 0%,#fff 0%);
     border-radius: 50%;
     position: relative;
 }
@@ -136,7 +138,6 @@ footer{
     position: relative;
     right: 0; bottom: 0;
     background: #fdcaca;
-    /* background: #3a2222; */
 }
 
 /* <script>
