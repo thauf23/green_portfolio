@@ -3,8 +3,10 @@ $(function(){
     // var winHeight = $(window).height();
     // var headerHeight = $('header').height();
     // var header = $('header');
-console.log("aa");
+
     // Console.log(header);
+
+// ----------- header 위치 ---------------------------------
     var windowScroll, windowHeight, headerHeight, headerTop;
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
@@ -36,6 +38,26 @@ console.log("aa");
             });            
         }
     });
-    
+
+// ----------- %% ---------------------------------
+    gauge()
+    var skilL = document.querySelectorAll('.skill_b');
+    var skillNum = document.querySelector('.skill_b div');
+    var i = 0;
+    // function gauge(sk){
+    //     console.log(sk)
+    //     loop = setInterval(function(){
+    //         if( i==sk ){
+    //             clearInterval(loop);
+    //             i=0;
+    //             return;
+    //         }
+    //         i++;
+    //         skillNum.textContent = i+"%";
+    //         skilL.style = `background:conic-gradient(from 0deg,#e9103a ${i}%,#000 0%)`;
+    //     },10)
+    // }
+    // skill(skilL.children[0].dataset.p);
+
     //end
 });
