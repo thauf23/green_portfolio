@@ -2,32 +2,43 @@ $(function(){
     //start
 
 // ----------- header 위치 ---------------------------------
-    var windowScroll, windowHeight, headerHeight, headerTop;
+    var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp;
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
         windowHeight = $(this).height();
         headerHeight = $('header').height();
         headerTop = windowHeight - headerHeight;
+        headerChange = windowHeight/15.5;
+        pp = headerHeight - headerChange;
 
         if( windowScroll > 0 ){
             $('header').css({
-                top: headerTop,
+                height: headerChange,
+                top: headerTop + pp,
                 background: "#fff"
             });
-            $('.about_left p').stop().animate({
+            $('.about_left p').css({
                 top: "42%"
-            },600);
+            });
             $('header nav ul li').eq(1).find('a').css({
                 color: "#ff484a"
-            });   
+            });
+            $('.header_menu').css({
+                position: "fixed",
+                left: "50%",
+                top: 0,
+                transform: "translateX(-50%)"
+            });
+            $('.box').css("position","fixed");
         } else {
             $('header').css({
                 top: 0,
-                background: "transparent"
+                background: "transparent",
+                height: "12vh"
             });
-            $('.about_left p').stop().animate({
+            $('.about_left p').css({
                 top: "54%"
-            },600);
+            });
             $('header nav ul li').eq(1).find('a').css({
                 color: "#fff"
             });            
@@ -35,10 +46,8 @@ $(function(){
     });
 
 // ----------- %% ---------------------------------
-    
     var skilL = $('.skill_b');
     var skillNum = $('.skill_b div');
-    console.log(skillNum);
     
     function gauge(sk,z){
         var i = 0, loop='';

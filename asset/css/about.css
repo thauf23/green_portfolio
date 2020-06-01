@@ -82,9 +82,7 @@ header nav ul li:nth-of-type(2) a::after{
 /* skill */
 .skill{
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    /* padding: 3em; */
 }
 .skill dt{
     width: 100%;
@@ -134,9 +132,9 @@ header nav ul li:nth-of-type(2) a::after{
 }
 
 /* footer */
-footer{
+/* footer{
     position: relative;
     right: 0; bottom: 0;
     background: #fdcaca;
-}
+} */
 

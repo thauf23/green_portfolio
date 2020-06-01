@@ -128,6 +128,6 @@
             </dl>
         </section>
     </div>
-<?php 
+<!-- <?php 
     include_once $_SERVER['DOCUMENT_ROOT']."/asset/php/footer.php";
-?>
+?> -->
