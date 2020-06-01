@@ -1,13 +1,8 @@
 $(function(){
     //start
-    var winHeight = $(window).height();
-    var headerHeight = $('header').height();
-    // var header = $(winHeight);
-
-    console.log(winHeight);
 
 // ----------- header 위치 ---------------------------------
-    // var windowScroll, windowHeight, headerHeight, headerTop;
+    var windowScroll, windowHeight, headerHeight, headerTop;
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
         windowHeight = $(this).height();
@@ -44,9 +39,6 @@ $(function(){
     var skilL = $('.skill_b');
     var skillNum = $('.skill_b div');
     console.log(skillNum);
-
-    
-    // console.log(inD);
     
     function gauge(sk,z){
         var i = 0, loop='';
@@ -59,10 +51,10 @@ $(function(){
                     return;
                 }
                 i++;
-                
                 $('dd').eq(z).find('.skill_b div').text(i+"%");
-                $('dd').eq(z).find('.skill_b').css({background:'conic-gradient(from 0deg,#e9103a '+i+'%,#fff 0%)'});
-                
+                $('dd').eq(z).find('.skill_b').css({
+                    background:`conic-gradient(from 0deg,#e9103a ${i}%,#fff 0%)`
+                });
             },10);
             
        }

@@ -96,11 +96,10 @@ header nav ul li:nth-of-type(2) a::after{
 .skill dd{
     width: 38%;
     margin: 3.125em 2em 0;
-    border: 1px solid #fff;
 }
 .skill dd .skill_b{
     width: 190px; height: 190px;
-    background:conic-gradient(from 0deg,#e9103a 1%,#fff 0%);
+    background:conic-gradient(from 0deg,#e9103a 0%,#fff 0%);
     border-radius: 50%;
     position: relative;
 }
@@ -118,6 +117,7 @@ header nav ul li:nth-of-type(2) a::after{
     justify-content: center;
     align-items: center;
 }
+
 /* skill_text */
 .skill dd .skill_text{
     width: 50%;
