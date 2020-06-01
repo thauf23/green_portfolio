@@ -38,20 +38,20 @@
             <p>
                 <span>const</span>
                 <strong>Birth</strong>
-                <small>= “ 1987.06.19 ”;</small>
+                <small>= “ 1987.06.19 ” ;</small>
             </p>
             <p>
                 <span>var</span>
-                <strong>cAll, eMail;</strong>
+                <strong>cAll, eMail ;</strong>
             </p>
             <p>
                 <span>if</span>
-                <small>( 핸드폰을 가지고 있다 ){</small>
+                <small>( 핸드폰을 가지고 있다 ){</small><br>
                 <strong>cAll</strong>
-                <small>= “ 010 - 3542 - 6239 ”;</small>
-                <small>} else {</small>
+                <small>= “ 010 - 3542 - 6239 ” ;</small><br>
+                <small>} else {</small><br>
                 <strong>eMail</strong>
-                <small>= “ thauf23@naver.com ”;</small>
+                <small>= “ thauf23@naver.com ” ;</small><br>
                 <small>}</small>
             </p>
         </section>

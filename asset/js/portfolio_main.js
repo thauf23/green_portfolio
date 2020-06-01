@@ -2,7 +2,7 @@ $(function(){
     // start
     const boxImg = $('.box_img');
     var imgLi = $('.box_img li');
-
+   
     const cloneLeft = imgLi.eq(0).clone();
     boxImg.append(cloneLeft);
     const cloneRight = imgLi.eq(5).clone();
