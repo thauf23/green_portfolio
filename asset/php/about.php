@@ -55,7 +55,7 @@
                 <small>}</small>
             </p>
             <dl class= "skill">
-                <dt>SKILL</dt>
+                <!-- <dt>SKILL</dt> -->
                 <dd>
                     <div class="skill_b">
                         <div data-p="90">0%</div>

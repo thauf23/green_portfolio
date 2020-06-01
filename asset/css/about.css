@@ -100,7 +100,7 @@ header nav ul li:nth-of-type(2) a::after{
 }
 .skill dd .skill_b{
     width: 190px; height: 190px;
-    background:conic-gradient(from 0deg,#e9103a 0%,#fff 0%);
+    background:conic-gradient(from 0deg,#e9103a 1%,#fff 0%);
     border-radius: 50%;
     position: relative;
 }
@@ -140,20 +140,3 @@ footer{
     background: #fdcaca;
 }
 
-/* <script>
-        var g3 = document.querySelector('.g3');
-        var i=0;
-        function skill(k){
-            loop = setInterval(function(){
-                if(i == k){
-                    clearInterval(loop);
-                    i=0;
-                    return;
-                }
-                i++;
-                g3.children[0].textContent = i+"%";
-                g3.style = `background:conic-gradient(from 0deg,#f00 ${i}%,#000 0%)`;
-            },10);
-        }
-        skill(g3.children[0].dataset.p);
-    </script> */

@@ -1,13 +1,13 @@
 $(function(){
     //start
-    // var winHeight = $(window).height();
-    // var headerHeight = $('header').height();
-    // var header = $('header');
+    var winHeight = $(window).height();
+    var headerHeight = $('header').height();
+    // var header = $(winHeight);
 
-    // Console.log(header);
+    console.log(winHeight);
 
 // ----------- header 위치 ---------------------------------
-    var windowScroll, windowHeight, headerHeight, headerTop;
+    // var windowScroll, windowHeight, headerHeight, headerTop;
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
         windowHeight = $(this).height();
@@ -40,24 +40,39 @@ $(function(){
     });
 
 // ----------- %% ---------------------------------
-    gauge()
-    var skilL = document.querySelectorAll('.skill_b');
-    var skillNum = document.querySelector('.skill_b div');
-    var i = 0;
-    // function gauge(sk){
-    //     console.log(sk)
-    //     loop = setInterval(function(){
-    //         if( i==sk ){
-    //             clearInterval(loop);
-    //             i=0;
-    //             return;
-    //         }
-    //         i++;
-    //         skillNum.textContent = i+"%";
-    //         skilL.style = `background:conic-gradient(from 0deg,#e9103a ${i}%,#000 0%)`;
-    //     },10)
-    // }
-    // skill(skilL.children[0].dataset.p);
+    
+    var skilL = $('.skill_b');
+    var skillNum = $('.skill_b div');
+    console.log(skillNum);
+
+    
+    // console.log(inD);
+    
+    function gauge(sk,z){
+        var i = 0, loop='';
+       
+       return function(){
+            loop = setInterval(function(){
+                if( i==parseInt(sk) ){
+                    i=0;
+                    clearInterval(loop);
+                    return;
+                }
+                i++;
+                
+                $('dd').eq(z).find('.skill_b div').text(i+"%");
+                $('dd').eq(z).find('.skill_b').css({background:'conic-gradient(from 0deg,#e9103a '+i+'%,#fff 0%)'});
+                
+            },10);
+            
+       }
+    }
+    
+    for(var j=0;j<skilL.length;j++){
+        var a = gauge($('dd').eq(j).find('.skill_b div').data('p'), j);
+        a();
+    }
+        
 
     //end
 });
