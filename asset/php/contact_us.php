@@ -24,7 +24,7 @@
                     <li><input type="text" name="name" placeholder="name"></li>
                     <li><input type="email" name="email" placeholder="email"></li>
                     <li><input type="text" name="subject" placeholder="subject"></li>
-                    <li><textarea name="contents"></textarea></li>
+                    <li><textarea name="contents" required ></textarea></li>
                     <li><input type="submit" value="SAVE" class="btn"></li>
                 </ul>
             </form>

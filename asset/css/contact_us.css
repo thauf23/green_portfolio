@@ -6,5 +6,37 @@
     height: 78.8vh;
 }
 section{
-   
+    
+}
+section h2{}
+section form{}
+section form ul{
+    width: 50%;
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section form ul li{
+    width: 100%;
+}
+section form ul li:nth-of-type(1),
+section form ul li:nth-of-type(2){
+    width: 49%;
+}
+section form ul li input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid #ffb1b2;
+}
+section form ul li:nth-of-type(5) input{
+    /* background: #ff484a; */
+}
+section form ul li textarea{
+    width: 100%;
+    height: 40vh;
+    margin: 5px;
+    border: 3px solid #ffb1b2;
+    resize: none;
 }

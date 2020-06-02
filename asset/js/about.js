@@ -45,29 +45,39 @@ $(function(){
                 color: "#fff"
             });            
         }
+
 // ----------- dd 위치 ---------------------------------
         // var ddOffset = $('.skill dd').offset().top;
         // var ddHeight = $('.skill dd').height();
         // var ddPlus = ddOffset + ddHeight;
         var ddOffset, ddHeight, ddPlus;
-        for( var v=0; v<$('.skill dd').length; v++ ){
-            ddOffset = $('.skill dd').eq(v).offset().top;
-            ddHeight = $('.skill dd').height();
-            ddPlus = ddOffset + ddHeight;
-            console.log(v);
-            if( ddPlus-windowHeight < windowScroll){
-                // console.log(ddPlus);
-                // for(var j=0;j<skilL.length;j++){
-                //     // if(ddPlus)
-                //     var a = gauge($('dd').eq(j).find('.skill_b div').data('p'), j);
-                //     a();
-                // }
+        // $(window).one('scroll', function(){
+            for( var v=0; v<$('.skill dd').length; v++ ){
+                ddOffset = $('.skill dd').eq(v).offset().top;
+                ddHeight = $('.skill dd').height();
+                ddPlus = ddOffset + ddHeight;
+                // console.log(v);
+                if( ddPlus-windowHeight < windowScroll){
+                    // console.log(ddPlus);
+                    // for(var j=0;j<skilL.length;j++){
+                        console.log("dd;;"+ddPlus);
+                        console.log("win;;"+windowHeight);
+                        console.log(ddPlus+"-"+windowHeight+"="+(ddPlus-windowHeight));
+                        console.log("sc;;"+windowScroll);
+                        var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
+                            a();
+                        // if( ddOffset==windowHeight ){
+                        //     var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
+                        //     a();
+                        // }
+                    // }
+                }
             }
-        }
-        console.log($('.skill dd').length);
-        // console.log(ddOffset);
-        
+            // console.log($('.skill dd').length);
+            // console.log(ddOffset);
+        // });    
     });
+
 
 // ----------- %% ---------------------------------
 var skilL = $('.skill_b');
