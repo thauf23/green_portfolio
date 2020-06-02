@@ -11,7 +11,7 @@
     width: 24px;
     height: 24px;
     opacity: 0;
-    animation: show 4s forwards;
+    animation: show 3.3s forwards;
 }
 @keyframes show{
     60%{opacity:0;}
