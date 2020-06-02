@@ -65,7 +65,7 @@ section form ul li textarea{
     padding: 0;
     border: 0 solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-    outline: 2px solid;
+    outline: 3px solid;
     outline-color: rgba(255, 165, 166, .5);
     outline-offset: 0px;
     text-shadow: none;
