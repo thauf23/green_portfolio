@@ -36,9 +36,9 @@
         <section class="sub_summary">
             <h3>THE PROJECT</h3>
             <p>
-                <span>Shinil polytec</span>
-                프로젝트는 그린컴퓨터 아카데미 수강생 조별과제로써, 기존 홈페이지를
-                <span>Renewal</span>
+                <span>HOUSE</span>
+                프로젝트는 
+                <span>Design</span>
                 제작 하였습니다.
             </p>
             <p>
@@ -55,7 +55,7 @@
                 <span>동적제어</span>
                 할 수 있도록 제작하였습니다. 
             </p>
-            <a href="https://thauf23.github.io/Shinil_project/">https://thauf23.github.io/Shinil_project/</a>
+            <a href="https://thauf23.github.io/houseNew/">https://thauf23.github.io/houseNew/</a>
         </section>
         <section class="sub_contents">
             <ul>
