@@ -2,7 +2,7 @@ $(function(){
     //start
 
 // ----------- header 위치 ---------------------------------
-    var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp,blen=true,skillArr=[0];
+    var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp;
     
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
@@ -47,16 +47,12 @@ $(function(){
         }
 
 // ----------- dd 위치 ---------------------------------
-        // var ddOffset = $('.skill dd').offset().top;
-        // var ddHeight = $('.skill dd').height();
-        // var ddPlus = ddOffset + ddHeight;
-        var ddOffset, ddHeight, ddPlus;
-        // $(window).one('scroll', function(){
+        var ddOffset, ddPlus, skillArr=[0];
+
             for( var v=0; v<$('.skill dd').length; v++ ){
                 ddOffset = $('.skill dd').eq(v).offset().top;
-                
                 ddPlus = ddOffset - windowHeight;
-                // console.log(v);
+
                 if( ddPlus+100 < windowScroll && windowScroll < ddPlus+150){
                            
                             var h = 1;
@@ -70,7 +66,6 @@ $(function(){
                                 skillArr.push(v);
                                 lLen = skillArr.length;
                             }
-
                              if(fLen != lLen){
                                 var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
                                 a();
@@ -78,11 +73,7 @@ $(function(){
                     
                 }
             }
-            // console.log($('.skill dd').length);
-            // console.log(ddOffset);
-        // });    
     });
-
 
 // ----------- %% ---------------------------------
 var skilL = $('.skill_b');
