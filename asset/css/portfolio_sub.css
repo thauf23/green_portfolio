@@ -69,8 +69,8 @@ header nav ul li:nth-of-type(1) a::after{
     margin-top: 300px;
     margin-bottom: 15em;
     position: relative;
-    height: 600px;
-    border: 2px solid pink;
+    /* height: 600px; */
+    /* border: 2px solid pink; */
     opacity: 0;
 }
 .sub_contents ul li small{
