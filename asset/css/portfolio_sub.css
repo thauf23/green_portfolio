@@ -62,16 +62,24 @@ header nav ul li:nth-of-type(1) a::after{
     padding-top: 15em;
 }
 .sub_contents ul{
-    width: 57.3%;
-    margin: 0 auto;
+    /* width: 57.3; */
+    width: 100%;
+    /* margin: 0 auto; */
 }
 .sub_contents ul li{
-    margin-top: 300px;
-    margin-bottom: 15em;
+    /* margin-top: 300px;
+    margin-bottom: 15em; */
     position: relative;
     /* height: 600px; */
     /* border: 2px solid pink; */
     opacity: 0;
+    margin: 300px auto 15em;
+}
+.sub_contents ul li:nth-of-type(1){
+    width: 57.3%;
+}
+.sub_contents ul li:nth-of-type(2){
+    width: 61%;
 }
 .sub_contents ul li small{
     font-size: 6.25rem;
@@ -85,7 +93,7 @@ header nav ul li:nth-of-type(1) a::after{
     left: -104px;
 }
 .sub_contents ul li:nth-of-type(2) small{
-    right: -118px;
+    right: -78px;
 }
 .sub_contents ul li .sub_video{}
 .sub_contents ul li .sub_video video{}
