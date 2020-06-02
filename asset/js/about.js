@@ -2,7 +2,7 @@ $(function(){
     //start
 
 // ----------- header 위치 ---------------------------------
-    var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp;
+    var windowScroll, windowHeight, headerHeight, headerTop, headerChange, pp,blen=true,skillArr=[0];
     
     $(window).on('scroll', function(){
         windowScroll = $(this).scrollTop();
@@ -54,23 +54,28 @@ $(function(){
         // $(window).one('scroll', function(){
             for( var v=0; v<$('.skill dd').length; v++ ){
                 ddOffset = $('.skill dd').eq(v).offset().top;
-                ddHeight = $('.skill dd').height();
-                ddPlus = ddOffset + ddHeight;
+                
+                ddPlus = ddOffset - windowHeight;
                 // console.log(v);
-                if( ddPlus-windowHeight < windowScroll){
-                    // console.log(ddPlus);
-                    // for(var j=0;j<skilL.length;j++){
-                        console.log("dd;;"+ddPlus);
-                        console.log("win;;"+windowHeight);
-                        console.log(ddPlus+"-"+windowHeight+"="+(ddPlus-windowHeight));
-                        console.log("sc;;"+windowScroll);
-                        var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
-                            a();
-                        // if( ddOffset==windowHeight ){
-                        //     var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
-                        //     a();
-                        // }
-                    // }
+                if( ddPlus+100 < windowScroll && windowScroll < ddPlus+150){
+                           
+                            var h = 1;
+                            var fLen = skillArr.length;
+                            var lLen = 0;
+                            
+                            for(var j=0;j<skillArr.length;j++){
+                                if(skillArr[j] == v){h=0}
+                            }
+                            if(h){
+                                skillArr.push(v);
+                                lLen = skillArr.length;
+                            }
+
+                             if(fLen != lLen){
+                                var a = gauge($('dd').eq(v).find('.skill_b div').data('p'), v);
+                                a();
+                            }
+                    
                 }
             }
             // console.log($('.skill dd').length);
