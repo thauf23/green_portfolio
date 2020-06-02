@@ -6,6 +6,7 @@
     <link href="/asset/css/integrated_contact.css" type=text/css rel=stylesheet>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="/asset/js/portfolio_buger.js"></script>
+    <script src="/asset/js/contact_us.js"></script>
     
 </head>
 <body>
