@@ -40,7 +40,7 @@ $(function(){
         $('.sub_contents ul li').each(function(i){
             var liSet = $('.sub_contents ul li').eq(i).offset().top;
             var numBer =  $('.sub_contents ul li').eq(i).find('small').offset().top;
-            var sToo = sTo+300;
+            numBer = numBer-500;
 
             if( liSet-winHe<sTo ){
                 $('.sub_contents ul li').eq(i).animate({
@@ -52,11 +52,11 @@ $(function(){
             if( numBer<sTo ){
                 $('.sub_contents ul li').eq(i).find('small').stop().animate({       
                     top: "52%"
-                },1000);
-            }else{
+                },600);
+            } else {
                 $('.sub_contents ul li').eq(i).find('small').stop().animate({
                     top: "-140px"
-                },1000);
+                },600);
             }
         });
     });
