@@ -78,7 +78,7 @@
         </section>
         <section class="sub_detail">
             <figure>
-                <p><img src="../img/shinil/shinil_detail.png" alt=""></p>
+                <p><img src="../img/house/house_detail.png" alt=""></p>
                 <figcaption>
                 신일폴리텍은 제가 처음으로 리뉴얼하여<br>
                 제작한 홈페이지입니다.<br>
