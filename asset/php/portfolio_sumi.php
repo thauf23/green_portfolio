@@ -35,22 +35,25 @@
         <section class="sub_summary">
             <h3>THE PROJECT</h3>
             <p>
-                <span>Shinil polytec</span>
-                프로젝트는 그린컴퓨터 아카데미 수강생 조별과제로써, 기존 홈페이지를
-                <span>Renewal</span>
+                <span>An Sumi portfolio</span>
+                프로젝트는 지금까지 제작한 홈페이를 통합 적으로 볼 수 있는 통합 페이지입니다.<br>
+                주조색 <span>Indigo</span> 보조색 <span>black</span> 포인트색 <span>pink</span>로 홈페이지를 
+                <span>Design</span>
                 제작 하였습니다.
             </p>
             <p>
-                <span>HTML5, CSS3</span>
-                위주의 작업을 하였으며,
+                <span>HTML5, CSS3, J-query, Ajax</span>
+                작업을 하였으며,
             </p>
             <p>
                 <span>CSS media</span>
-                를 이용하여 1100px, 1024px, 768px, 480px 반응형 처리
+                반응형 처리할 예정이며 반응형 처리를 위해 HTML5, CSS3 코딩하였습니다.
             </p>
             <p>
-                <span>Javascript</span>
-                로 메인 이미지를
+                <span>J-query</span>
+                로 Manin page에서는 header menu button click event로 logo src(주소값) 변경, menu page slide up/down,<br>
+                img slide, json을 활용하여 텍스트값 변경, class 위치 변경으로 중심이 되는 이미지 표현
+                Sub page에서는 컨텐츠 scroll에 따를 위치값 변경, text slide를 하여<br>
                 <span>동적제어</span>
                 할 수 있도록 제작하였습니다. 
             </p>
@@ -66,7 +69,7 @@
                     </div>
                 </li>
                 <li>
-                    <p><img src="../img/shinil/shinil_monitor.png" alt=""></p>
+                    <p><img src="../img/portfolio/sumi_monitor.png" alt="목업"></p>
                     <small>02</small>
                 </li>
             </ul>
@@ -78,17 +81,20 @@
         </section>
         <section class="sub_detail">
             <figure>
-                <p><img src="../img/shinil/shinil_detail.png" alt=""></p>
+                <p><img src="../img/portfolio/sumi_detail.png" alt=""></p>
                 <figcaption>
-                신일폴리텍은 제가 처음으로 리뉴얼하여<br>
-                제작한 홈페이지입니다.<br>
-                로고부터 시작하여 디자인, 레이어 아웃 등 제작하면서부터<br>
-                완성된 HTML5, CSS3를 작성하기까지 수차례 지우고<br>
-                다시 작성하기를 반복하면서<br>
-                신일폴리텍을 제작 할 수 있었습니다.<br>
-                첫 제작한 홈페이지라 부족해 보이는 부분이 보이지만<br>
-                그와 반대로 애착을 가지고 있는<br>
-                홈페이지입니다.
+                HOUSE는 벤치마킹으로 시작하여 디자인을 거쳐<br>
+                레이어 아웃, 코딩까지 3주정도 제작하였습니다.<br>
+                J-query를 배운 직후 적용하여 만든 페이지로<br>
+                상세페이지의 img의 높이를 가져와 img의 상위 태그에<br>
+                값을 넣어주고 페이지 로딩 직후 해당 높이값으로<br>
+                보이도록 하는 작업이 가장 힘들었던 부분이었지만<br>
+                여러 시행착오와 끈기를 가지고 작업할 수 있게 도와주는<br>
+                매개체 역활을 하는 부분이기도 하였습니다.<br>
+                엘레베이터처럼 빠르게 갈 수는 없지만<br>
+                힘이 있을 때는 빠르게 오르기도 하고<br>
+                힘이 들때는 차근차근 오르기도 하는 계단처럼<br>
+                성장 할 수 있는 계기가 되었습니다.<br>
                 </figcaption>
             </figure>
         </section>
