@@ -55,7 +55,7 @@
                 <span>동적제어</span>
                 할 수 있도록 제작하였습니다. 
             </p>
-            <a href="http://thauf23.dothome.co.kr/">http://thauf23.dothome.co.kr/</a>
+            <a href="http://thauf23.dothome.co.kr/" target="http://thauf23.dothome.co.kr/">http://thauf23.dothome.co.kr/</a>
         </section>
         <section class="sub_contents">
             <ul>
