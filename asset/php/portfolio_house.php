@@ -62,11 +62,11 @@
                 <li>
                     <small>01</small>
                     <div class="sub_video">
-                        <!-- <video autoplay loop muted poster="" src="../video/shinil_polytec.mp4" type="video/mp4"></video> -->
+                        <video autoplay loop muted poster="" src="../video/house.mp4" type="video/mp4"></video>
                     </div>
                 </li>
                 <li>
-                    <p><img src="../img/shinil/shinil_monitor.png" alt=""></p>
+                    <p><img src="../img/house/house_monitor.png" alt=""></p>
                     <small>02</small>
                 </li>
             </ul>
