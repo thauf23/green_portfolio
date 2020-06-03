@@ -54,14 +54,15 @@
                 <span>동적제어</span>
                 할 수 있도록 제작하였습니다. 
             </p>
-            <a href="https://thauf23.github.io/Shinil_project/">https://thauf23.github.io/Shinil_project/</a>
+            <a href="https://thauf23.github.io/Shinil_project/" target="https://thauf23.github.io/Shinil_project/">https://thauf23.github.io/Shinil_project/</a>
         </section>
         <section class="sub_contents">
             <ul>
                 <li>
                     <small>01</small>
                     <div class="sub_video">
-                        <!-- <video autoplay loop muted poster="" src="../video/shinil_polytec.mp4" type="video/mp4"></video> -->
+                        <img src="../img/box_img_portfolio.jpg" alt="">
+                        <!-- <video autoplay loop muted poster="../img/box_img_portfolio.jpg" src="../video/.mp4" type="video/mp4"></video> -->
                     </div>
                 </li>
                 <li>
