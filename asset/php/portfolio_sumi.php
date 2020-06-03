@@ -64,8 +64,7 @@
                 <li>
                     <small>01</small>
                     <div class="sub_video">
-                        <img src="../img/box_img_portfolio.jpg" alt="">
-                        <!-- <video autoplay loop muted poster="../img/box_img_portfolio.jpg" src="../video/.mp4" type="video/mp4"></video> -->
+                        <video autoplay loop muted poster="../img/box_img_portfolio.jpg" src="../video/s_portfolio.mp4" type="video/mp4"></video>
                     </div>
                 </li>
                 <li>
