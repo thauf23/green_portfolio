@@ -33,6 +33,7 @@ header nav ul li:nth-of-type(1) a::after{
     font-size: 1.125rem;
     /* color: #433ba4; */
     font-weight: bold;
+    margin: 0 5px;
 }
 .sub_summary a{
     font-size: 1.125rem;

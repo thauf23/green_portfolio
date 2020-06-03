@@ -37,21 +37,23 @@
             <h3>THE PROJECT</h3>
             <p>
                 <span>HOUSE</span>
-                프로젝트는 
+                프로젝트는 가전제품의 모던한 컨셉에 맞게 주조색 
+                <span>white</span> 보조색 <span>brown</span> 포인트색 <span>yellow</span>로 홈페이지를
                 <span>Design</span>
                 제작 하였습니다.
             </p>
             <p>
-                <span>HTML5, CSS3</span>
-                위주의 작업을 하였으며,
+                <span>HTML5, CSS3, J-query, Ajax</span>
+                작업을 하였으며,
             </p>
             <p>
                 <span>CSS media</span>
-                를 이용하여 1100px, 1024px, 768px, 480px 반응형 처리
+                를 이용하여 반응형 처리
             </p>
             <p>
-                <span>Javascript</span>
-                로 메인 이미지를
+                <span>J-query</span>
+                로 Manin page에서는 header scroll에 따른 배경색 변경, menu button click event로 icon 변경<br>
+                Sub page에서는 button click event에 따른 이미지 src(주소값) 변경, 이미지 slide, popup 화면 노출시켜<br>
                 <span>동적제어</span>
                 할 수 있도록 제작하였습니다. 
             </p>
@@ -62,7 +64,7 @@
                 <li>
                     <small>01</small>
                     <div class="sub_video">
-                        <video autoplay loop muted poster="" src="../video/house.mp4" type="video/mp4"></video>
+                        <video autoplay loop muted poster="../img/house/house_img.jpg" src="../video/house.mp4" type="video/mp4"></video>
                     </div>
                 </li>
                 <li>
