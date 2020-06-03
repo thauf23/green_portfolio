@@ -42,7 +42,7 @@
                 제작 하였습니다.
             </p>
             <p>
-                <span>HTML5, CSS3, J-query, Ajax</span>
+                <span>HTML5, CSS3, J-query, Ajax, php</span>
                 작업을 하였으며,
             </p>
             <p>
@@ -83,18 +83,16 @@
             <figure>
                 <p><img src="../img/portfolio/sumi_detail.png" alt=""></p>
                 <figcaption>
-                HOUSE는 벤치마킹으로 시작하여 디자인을 거쳐<br>
-                레이어 아웃, 코딩까지 3주정도 제작하였습니다.<br>
-                J-query를 배운 직후 적용하여 만든 페이지로<br>
-                상세페이지의 img의 높이를 가져와 img의 상위 태그에<br>
-                값을 넣어주고 페이지 로딩 직후 해당 높이값으로<br>
-                보이도록 하는 작업이 가장 힘들었던 부분이었지만<br>
-                여러 시행착오와 끈기를 가지고 작업할 수 있게 도와주는<br>
-                매개체 역활을 하는 부분이기도 하였습니다.<br>
-                엘레베이터처럼 빠르게 갈 수는 없지만<br>
-                힘이 있을 때는 빠르게 오르기도 하고<br>
-                힘이 들때는 차근차근 오르기도 하는 계단처럼<br>
-                성장 할 수 있는 계기가 되었습니다.<br>
+                An Sumi protfolio는 벤치마킹으로 시작하여 디자인을 거쳐<br>
+                레이어 아웃, 코딩까지 4주정도 제작하였습니다.<br>
+                6개월 동안 그린컴퓨터 아카데미를 통해<br>
+                HTML5, CSS3, javaScript, j-query, ajax, php, potoshop을<br>
+                배워가며 응용할 수 있는 부분을 이용하여<br>
+                홈페이지를 제작하였습니다.<br>
+                vanilla javaScript를 이용하여 지금보다 더 가볍고<br>
+                부드러운 로딩이 가능한 코딩을 실력이 안되었다는 점에서<br>
+                아쉽지만 한페이지 한페이지 코딩할 때 마다<br>
+                실력이 늘어난 점에 있어서 뿌듯한 작품입니다.
                 </figcaption>
             </figure>
         </section>
