@@ -2,10 +2,11 @@
     session_start();
 
     $host = 'localhost';
-    $db_user = 'root'; 
-    $db_password = '';
-    $db_name = 'portfolio'; //user DB
+    $db_user = 'smproject'; 
+    $db_password = 'seeun1146!';
+    $db_name = 'smproject'; //user DB
 
+    // $dbConnect = mysqli_connect($host, $db_user, $db_password, $db_name);
     $dbcon = new mysqli($host, $db_user, $db_password, $db_name);
 
     function mq($sql){
