@@ -20,7 +20,7 @@
     <div class="container">
         <section class="request">
             <h2>CONTACT US</h2>
-            <form action="request_res.php" name="popol" enctype="multipart/form-data" method="post">
+            <form action="../../admin/contact/request_res.php" name="popol" enctype="multipart/form-data" method="post">
                 <ul>
                     <li><input type="text" name="name" placeholder="name"></li>
                     <li><input type="email" name="email" placeholder="email"></li>

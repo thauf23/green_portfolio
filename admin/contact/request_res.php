@@ -1,5 +1,5 @@
 <?
-    include_once $_SERVER['DOCUMENT_ROOT']."/admin/admin_check.php";
+    // include_once $_SERVER['DOCUMENT_ROOT']."/admin/admin_check.php";
     // 글정보 처리
 
     $name = $_POST['name'];
@@ -17,5 +17,5 @@
     // 쿼리 명령문 실행
     mq($query);
 
-    page('list.php');
+    page('contact_us.php');
 ?>

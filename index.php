@@ -20,7 +20,7 @@
 
         <template id="thum_tem">
             <div class="thum_text">
-                <p></p>
+                <p>PROJECT</p>
                 <h2></h2>
                 <small>
                     <span class="introduce"></span>
